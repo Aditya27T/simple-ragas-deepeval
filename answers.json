@@ -1,0 +1,802 @@
+[
+    {
+        "query_id": 1.0,
+        "query": "Apa kepanjangan dari SPBE dalam tata kelola pemerintahan Indonesia?",
+        "query_type": "Faktual",
+        "expected_output": "Sistem Pemerintahan Berbasis Elektronik.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Kepanjangan dari SPBE adalah **Sistem Pemerintahan Berbasis Elektronik**."
+    },
+    {
+        "query_id": 2.0,
+        "query": "Secara umum, apa yang dimaksud dengan transformasi digital pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Pemanfaatan data dan teknologi digital untuk meningkatkan kualitas layanan dan tata kelola pemerintahan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "**Transformasi digital pemerintah** adalah proses perubahan fundamental dalam tata kelola pemerintahan dengan memanfaatkan teknologi informasi dan komunikasi (TIK) untuk meningkatkan efisiensi, efektivitas, dan kualitas pelayanan publik.\n\nSecara umum, transformasi ini bukan sekadar memindahkan layanan manual ke aplikasi (digitasi), melainkan mencakup tiga aspek utama:\n\n1.  **Perubahan Proses Bisnis:** Menyederhanakan dan mengoptimalkan prosedur kerja agar lebih ramping dan cepat.\n2.  **Perubahan Budaya Kerja:** Menggeser pola pikir aparatur sipil negara (ASN) menjadi lebih adaptif, kolaboratif, dan berorientasi pada pengguna.\n3.  **Integrasi Data dan Layanan:** Menghilangkan \"sekat-sekat\" antarinstansi (silo) melalui penerapan Sistem Pemerintahan Berbasis Elektronik (SPBE) untuk menciptakan layanan publik yang terpadu dan terintegrasi.\n\n**Tujuan utamanya** adalah menciptakan pemerintahan yang lebih transparan, akuntabel, dan responsif dalam melayani masyarakat."
+    },
+    {
+        "query_id": 3.0,
+        "query": "Apa tujuan utama dari kebijakan Satu Data Indonesia (SDI)?",
+        "query_type": "Faktual",
+        "expected_output": "Mewujudkan data pemerintah yang akurat, mutakhir, terpadu, dan dapat diakses sebagai dasar perencanaan dan pengambilan keputusan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tujuan utama dari kebijakan **Satu Data Indonesia (SDI)** adalah untuk mewujudkan tata kelola data pemerintah yang akurat, mutakhir, terpadu, dan dapat dipertanggungjawabkan, sehingga dapat digunakan secara bersama bagi perencanaan, pelaksanaan, evaluasi, dan pengawasan pembangunan serta peningkatan pelayanan publik.\n\nSecara spesifik, SDI bertujuan untuk:\n1. **Menghilangkan Silo Data:** Menghapus ego sektoral antar instansi pemerintah agar data tidak terfragmentasi.\n2. **Interoperabilitas Data:** Memastikan data dapat dibagipakaikan antar instansi melalui standar data dan metadata yang sama.\n3. **Meningkatkan Kualitas Data:** Menjamin data yang dihasilkan memiliki standar yang konsisten dan valid.\n4. **Mendukung Pengambilan Keputusan:** Menyediakan basis data yang akurat bagi pemerintah untuk mengambil kebijakan berbasis data (*data-driven policy*)."
+    },
+    {
+        "query_id": 4.0,
+        "query": "Sebutkan tiga manfaat utama penerapan Pemerintah Digital bagi masyarakat.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Akses layanan lebih cepat, peningkatan transparansi, dan kemudahan memperoleh layanan publik.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tiga manfaat utama penerapan Pemerintah Digital bagi masyarakat adalah:\n\n1. **Kemudahan Akses Layanan:** Masyarakat dapat mengakses layanan publik kapan saja dan di mana saja secara daring tanpa harus datang secara fisik ke kantor pemerintah.\n2. **Peningkatan Transparansi dan Akuntabilitas:** Proses administrasi menjadi lebih terbuka dan dapat dipantau, sehingga mengurangi risiko pungutan liar (pungli) dan korupsi.\n3. **Efisiensi Waktu dan Biaya:** Memangkas birokrasi yang berbelit-belit, sehingga pengurusan dokumen atau perizinan menjadi lebih cepat dan hemat biaya transportasi."
+    },
+    {
+        "query_id": 5.0,
+        "query": "Sebutkan tiga karakteristik utama digital government.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Keterpaduan layanan, pemanfaatan data, dan orientasi pada kebutuhan pengguna.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tiga karakteristik utama *digital government* adalah:\n\n1. **Berpusat pada Pengguna (*User-Centric*):** Layanan dirancang berdasarkan kebutuhan masyarakat dan pengguna, sehingga lebih mudah diakses, inklusif, dan memberikan pengalaman pengguna yang lebih baik.\n2. **Terintegrasi dan Terpadu (*Integrated/Interoperable*):** Menghilangkan silo data antar instansi melalui interoperabilitas, sehingga data saling terhubung dan masyarakat tidak perlu menginput data yang sama berulang kali.\n3. **Berbasis Data (*Data-Driven*):** Pengambilan keputusan dan penyusunan kebijakan dilakukan berdasarkan analisis data yang akurat dan *real-time* untuk meningkatkan efektivitas serta efisiensi pelayanan publik."
+    },
+    {
+        "query_id": 6.0,
+        "query": "Apa manfaat penerapan tata kelola data dalam pemerintahan digital?",
+        "query_type": "Faktual",
+        "expected_output": "Memastikan data akurat, terintegrasi, aman, dan dapat dimanfaatkan untuk mendukung layanan serta pengambilan keputusan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Penerapan tata kelola data dalam pemerintahan digital memberikan manfaat utama sebagai berikut:\n\n1.  **Kualitas Data Terjamin:** Memastikan data yang digunakan akurat, konsisten, mutakhir, dan valid, sehingga mengurangi risiko kesalahan informasi.\n2.  **Interoperabilitas Data:** Memungkinkan pertukaran data antar instansi pemerintah secara lancar (tidak ada silo data), sehingga layanan publik menjadi lebih terintegrasi.\n3.  **Pengambilan Keputusan Berbasis Data (*Data-Driven Decision Making*):** Menyediakan basis data yang handal bagi pimpinan untuk merumuskan kebijakan yang lebih tepat sasaran dan efektif.\n4.  **Keamanan dan Privasi Terjaga:** Menjamin perlindungan data pribadi masyarakat dan data negara melalui pengaturan hak akses dan standar keamanan yang jelas.\n5.  **Efisiensi Operasional:** Menghilangkan duplikasi pengumpulan data yang sama oleh instansi berbeda, sehingga menghemat waktu, biaya, dan sumber daya.\n6.  **Transparansi dan Akuntabilitas:** Meningkatkan kepercayaan publik melalui penyediaan data terbuka (*open data*) yang dapat dipertanggungjawabkan."
+    },
+    {
+        "query_id": 7.0,
+        "query": "Sebutkan tiga tujuan utama keamanan siber dalam layanan pemerintah digital.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Melindungi kerahasiaan data, menjaga integritas informasi, dan memastikan ketersediaan layanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tiga tujuan utama keamanan siber dalam layanan pemerintah digital (sering disebut sebagai CIA Triad) adalah:\n\n1. **Kerahasiaan (*Confidentiality*)**: Memastikan data sensitif pemerintah dan data pribadi masyarakat hanya dapat diakses oleh pihak yang memiliki wewenang.\n2. **Integritas (*Integrity*)**: Menjamin bahwa data dan informasi tetap akurat, konsisten, dan tidak diubah oleh pihak yang tidak berwenang selama proses penyimpanan maupun pengiriman.\n3. **Ketersediaan (*Availability*)**: Memastikan layanan digital dan data dapat diakses oleh pengguna dan petugas yang berwenang kapan pun dibutuhkan tanpa gangguan."
+    },
+    {
+        "query_id": 8.0,
+        "query": "Apa fungsi sebuah portal layanan publik nasional bagi masyarakat?",
+        "query_type": "Faktual",
+        "expected_output": "Mengonsolidasikan berbagai layanan pemerintah dalam satu titik akses agar mudah, cepat, dan terpadu.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Fungsi utama portal layanan publik nasional bagi masyarakat adalah sebagai **pintu tunggal (*single window*)** untuk mengakses seluruh layanan pemerintah.\n\nSecara spesifik, fungsinya meliputi:\n\n1.  **Simplifikasi Akses:** Masyarakat tidak perlu menghafal atau mengunjungi banyak situs web kementerian/lembaga/daerah yang berbeda; cukup melalui satu portal.\n2.  **Integrasi Layanan:** Menyatukan berbagai jenis layanan (administrasi, perizinan, bantuan sosial, dll.) dalam satu platform yang terintegrasi.\n3.  **Efisiensi Waktu dan Biaya:** Mengurangi birokrasi fisik dan prosedur yang berulang, sehingga proses pengurusan layanan menjadi lebih cepat dan murah.\n4.  **Transparansi dan Standarisasi:** Memberikan informasi yang jelas mengenai syarat, prosedur, waktu penyelesaian, dan biaya layanan secara terbuka.\n5.  **Kemudahan Autentikasi:** Biasanya menggunakan satu akun (*Single Sign-On*) untuk mengakses berbagai layanan berbeda tanpa harus membuat banyak akun."
+    },
+    {
+        "query_id": 9.0,
+        "query": "Jelaskan secara umum apa itu RAG (Retrieval-Augmented Generation) pada sistem AI. (Mengapa integrasi layanan digital penting bagi masyarakat?)",
+        "query_type": "Faktual",
+        "expected_output": "Mempermudah akses layanan, mengurangi duplikasi proses, dan meningkatkan efisiensi pelayanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Berikut adalah penjelasan singkat mengenai RAG dan pentingnya integrasi layanan digital:\n\n### **Apa itu RAG (Retrieval-Augmented Generation)?**\n**RAG** adalah teknik dalam AI yang menggabungkan kemampuan model bahasa besar (LLM) dengan sumber data eksternal yang terpercaya. \n\nSecara sederhana, RAG bekerja dalam dua tahap:\n1. **Retrieval (Pengambilan):** Saat menerima pertanyaan, AI tidak langsung menjawab, tetapi mencari informasi relevan dari basis data atau dokumen spesifik (misalnya: dokumen regulasi SPBE).\n2. **Generation (Pembuatan):** AI menggunakan informasi yang ditemukan tersebut sebagai referensi untuk menyusun jawaban yang akurat, aktual, dan meminimalkan risiko \"halusinasi\" (jawaban palsu).\n\n**Intinya:** RAG membuat AI memiliki \"buku referensi\" sehingga jawabannya tidak hanya berdasarkan hafalan data pelatihan, tetapi berdasarkan data nyata yang disediakan.\n\n---\n\n### **Mengapa Integrasi Layanan Digital Penting bagi Masyarakat?**\nIntegrasi layanan digital (seperti yang diupayakan dalam SPBE) sangat penting karena:\n\n1. **Efisiensi Waktu & Tenaga:** Masyarakat tidak perlu menginput data yang sama berulang kali di berbagai aplikasi berbeda (*Single Sign-On*).\n2. **Kemudahan Akses (One-Stop Service):** Berbagai layanan publik dapat diakses melalui satu pintu/platform, sehingga proses birokrasi menjadi lebih ringkas.\n3. **Transparansi & Akurasi Data:** Integrasi data antar instansi mengurangi risiko tumpang tindih data dan mempercepat proses verifikasi administrasi.\n4. **Peningkatan Kualitas Layanan:** Pemerintah dapat memberikan layanan yang lebih personal dan tepat sasaran karena data terintegrasi secara *real-time*."
+    },
+    {
+        "query_id": 10.0,
+        "query": "Apa yang dimaksud dengan pelindungan data pribadi (PDP)?",
+        "query_type": "Faktual",
+        "expected_output": "Upaya tata kelola dan teknis untuk melindungi data pribadi sepanjang siklus pemrosesannya sesuai regulasi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "**Pelindungan Data Pribadi (PDP)** adalah rangkaian upaya untuk melindungi data pribadi dalam pemrosesan data pribadi guna menjamin hak konstitusional subjek data pribadi.\n\nSecara sederhana, PDP adalah mekanisme untuk memastikan bahwa informasi yang dapat mengidentifikasi seseorang (seperti nama, NIK, alamat, data kesehatan, atau biometrik) dikelola dengan aman, tidak disalahgunakan, dan diproses sesuai dengan peraturan perundang-undangan yang berlaku.\n\n**Tujuan utama PDP adalah:**\n1. **Melindungi Hak Privasi:** Menjamin hak individu atas kendali terhadap data mereka.\n2. **Mencegah Penyalahgunaan:** Menghindari kebocoran data, pencurian identitas, atau penggunaan data untuk tujuan yang tidak sah.\n3. **Meningkatkan Kepercayaan:** Membangun kepercayaan masyarakat terhadap layanan digital pemerintah (SPBE) maupun swasta.\n\nDi Indonesia, hal ini diatur secara komprehensif dalam **Undang-Undang Nomor 27 Tahun 2022 tentang Pelindungan Data Pribadi**."
+    },
+    {
+        "query_id": 11.0,
+        "query": "Mengapa kepuasan pengguna menjadi tolok ukur penting dalam layanan digital?",
+        "query_type": "Evaluatif",
+        "expected_output": "Karena keberhasilan layanan akhirnya diukur dari manfaat dan pengalaman nyata pengguna, bukan sekadar ketersediaan teknologi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Kepuasan pengguna menjadi tolok ukur penting dalam layanan digital karena beberapa alasan utama berikut:\n\n1.  **Indikator Efektivitas Layanan:** Kepuasan pengguna menunjukkan apakah layanan digital tersebut benar-benar menjawab kebutuhan pengguna dan menyelesaikan masalah mereka secara efisien.\n2.  **Mengukur Kualitas Pengalaman Pengguna (UX):** Menjadi parameter apakah antarmuka (UI) mudah digunakan, aksesibel, dan tidak membingungkan bagi masyarakat.\n3.  **Mendorong Adopsi Digital:** Pengguna yang puas cenderung akan terus menggunakan layanan tersebut dan merekomendasikannya kepada orang lain, sehingga mempercepat transformasi digital.\n4.  **Dasar Perbaikan Berkelanjutan:** Umpan balik dari pengguna memberikan data riil bagi pengelola untuk melakukan iterasi, perbaikan fitur, dan optimalisasi layanan agar lebih tepat sasaran.\n5.  **Meningkatkan Kepercayaan Publik:** Dalam konteks SPBE, kepuasan pengguna mencerminkan tingkat kepercayaan masyarakat terhadap transparansi dan profesionalisme pemerintah dalam memberikan pelayanan publik."
+    },
+    {
+        "query_id": 12.0,
+        "query": "Apa peran komputasi awan (cloud) dalam infrastruktur pemerintah modern?",
+        "query_type": "Faktual",
+        "expected_output": "Menyediakan sumber daya komputasi yang elastis, efisien, dan terkonsolidasi untuk layanan digital.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Peran komputasi awan (*cloud computing*) dalam infrastruktur pemerintah modern adalah sebagai **fondasi transformasi digital** untuk menciptakan tata kelola pemerintahan yang lebih efisien, terintegrasi, dan responsif.\n\nBerikut adalah peran utamanya secara singkat:\n\n1.  **Konsolidasi Infrastruktur (Pusat Data Nasional):** Menghilangkan silo data dengan menyatukan berbagai server yang tersebar di berbagai instansi ke dalam satu infrastruktur terpadu (seperti Pusat Data Nasional/PDN), sehingga mengurangi duplikasi anggaran dan perangkat keras.\n2.  **Skalabilitas dan Fleksibilitas:** Memungkinkan pemerintah menambah atau mengurangi kapasitas penyimpanan dan daya komputasi secara cepat sesuai kebutuhan (misalnya saat lonjakan akses pada layanan pendaftaran CPNS atau bantuan sosial) tanpa harus membeli perangkat fisik baru.\n3.  **Efisiensi Biaya (Cost Efficiency):** Mengubah pengeluaran modal (*CapEx*) menjadi pengeluaran operasional (*OpEx*). Pemerintah tidak perlu membangun gedung data center sendiri di setiap instansi, cukup membayar layanan sesuai penggunaan (*pay-as-you-go*).\n4.  **Interoperabilitas dan Integrasi Data:** Memudahkan pertukaran data antarinstansi (Satu Data Indonesia) karena data disimpan dalam lingkungan yang terstandarisasi, sehingga mempercepat proses koordinasi dan pengambilan keputusan berbasis data.\n5.  **Peningkatan Keamanan dan Pemulihan Bencana:** Menyediakan mekanisme pencadangan (*backup*) dan pemulihan bencana (*disaster recovery*) yang lebih terjamin dan terpusat dibandingkan pengelolaan server lokal yang terfragmentasi.\n6.  **Percepatan Deployment Layanan:** Mempercepat peluncuran aplikasi layanan publik baru karena penyediaan infrastruktur dapat dilakukan dalam hitungan menit, bukan bulan."
+    },
+    {
+        "query_id": 13.0,
+        "query": "Apa tujuan dilakukannya evaluasi kinerja pemerintah digital?",
+        "query_type": "Ekstraksi",
+        "expected_output": "Mengukur tingkat kematangan dan efektivitas penerapan pemerintah digital untuk perbaikan berkelanjutan",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tujuan utama dilakukannya evaluasi kinerja pemerintah digital (SPBE) adalah untuk **mengukur tingkat keberhasilan** dan **efektivitas** implementasi transformasi digital dalam penyelenggaraan pemerintahan.\n\nSecara spesifik, tujuannya adalah:\n\n1. **Mengukur Capaian:** Mengetahui sejauh mana target digitalisasi layanan publik dan tata kelola pemerintahan telah tercapai.\n2. **Identifikasi Masalah:** Menemukan hambatan, celah (*gap*), atau kekurangan dalam penerapan sistem digital.\n3. **Dasar Pengambilan Keputusan:** Memberikan rekomendasi berbasis data bagi pimpinan untuk melakukan perbaikan atau penyesuaian strategi.\n4. **Meningkatkan Kualitas Layanan:** Memastikan layanan digital yang diberikan kepada masyarakat menjadi lebih cepat, mudah, transparan, dan akuntabel.\n5. **Optimalisasi Sumber Daya:** Memastikan penggunaan anggaran dan infrastruktur teknologi informasi dilakukan secara efisien dan tepat sasaran."
+    },
+    {
+        "query_id": 14.0,
+        "query": "Bagaimana hubungan antara CSIRT dan penanganan insiden siber dalam menjaga keamanan layanan digital pemerintah?",
+        "query_type": "Analisis",
+        "expected_output": "CSIRT bertanggung jawab menangani insiden siber, sedangkan penanganan insiden merupakan proses yang dilaksanakan untuk menjaga keamanan layanan digital.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Hubungan antara **CSIRT** (*Computer Security Incident Response Team*) dan **penanganan insiden siber** adalah hubungan antara **pelaksana (organisasi)** dan **proses (operasional)**.\n\nBerikut adalah penjelasan singkatnya:\n\n1.  **CSIRT sebagai Unit Pelaksana:** CSIRT adalah tim khusus yang dibentuk untuk mengelola dan merespons insiden keamanan siber. Dalam ekosistem SPBE, CSIRT berfungsi sebagai \"pemadam kebakaran\" digital yang siap siaga saat terjadi serangan.\n2.  **Penanganan Insiden sebagai Mekanisme Kerja:** Penanganan insiden adalah rangkaian prosedur (deteksi, analisis, penahanan, pemulihan, dan pasca-insiden) yang dijalankan oleh CSIRT untuk meminimalkan dampak serangan.\n3.  **Peran dalam Keamanan Layanan Digital Pemerintah:**\n    *   **Deteksi Dini:** CSIRT memantau layanan digital pemerintah untuk menemukan anomali atau serangan secara cepat.\n    *   **Mitigasi Cepat:** Saat terjadi insiden (misal: *defacement* situs atau kebocoran data), CSIRT melakukan tindakan teknis agar layanan tidak lumpuh total.\n    *   **Pemulihan Layanan:** Memastikan layanan digital pemerintah dapat kembali beroperasi dengan normal dan aman dalam waktu singkat (*recovery*).\n    *   **Pencegahan Berulang:** Melakukan analisis akar masalah (*root cause analysis*) agar celah keamanan yang sama tidak dieksploitasi kembali.\n\n**Kesimpulan:** CSIRT adalah **subjek/organisasinya**, sedangkan penanganan insiden adalah **tugas utamanya**. Keduanya bekerja sama untuk memastikan keberlangsungan layanan digital pemerintah agar tetap tersedia, utuh, dan rahasia."
+    },
+    {
+        "query_id": 15.0,
+        "query": "Apa manfaat kriptografi untuk pengamanan data pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Menjaga kerahasiaan dan integritas data saat disimpan, digunakan, maupun dipertukarkan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Manfaat kriptografi untuk pengamanan data pemerintah adalah untuk menjamin empat aspek utama keamanan informasi:\n\n1.  **Kerahasiaan (*Confidentiality*):** Memastikan data sensitif atau rahasia negara tidak dapat dibaca oleh pihak yang tidak berwenang melalui proses enkripsi.\n2.  **Integritas (*Integrity*):** Menjamin bahwa data tidak diubah atau dimanipulasi selama proses pengiriman atau penyimpanan (menggunakan fungsi *hash*).\n3.  **Keaslian (*Authentication*):** Memverifikasi identitas pengirim atau pengakses data untuk memastikan bahwa data berasal dari sumber yang sah.\n4.  **Nirpenyangkalan (*Non-repudiation*):** Mencegah pengirim menyangkal telah mengirimkan data atau melakukan transaksi elektronik (diimplementasikan melalui Tanda Tangan Elektronik/TTE).\n\nSecara singkat, kriptografi melindungi data pemerintah dari kebocoran, pemalsuan, dan akses ilegal."
+    },
+    {
+        "query_id": 16.0,
+        "query": "Jelaskan secara umum konsep arsitektur enterprise pada pemerintahan.",
+        "query_type": "Faktual",
+        "expected_output": "Kerangka yang menyelaraskan proses bisnis, data, aplikasi, dan teknologi agar terpadu mendukung tujuan organisasi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Secara umum, **Arsitektur Enterprise (AE)** pada pemerintahan adalah sebuah cetak biru (*blueprint*) terpadu yang menyelaraskan strategi bisnis pemerintah dengan implementasi teknologi informasi untuk mencapai tujuan organisasi secara efisien.\n\nKonsep utamanya adalah mengubah paradigma pembangunan aplikasi yang bersifat **terfragmentasi (silo)** menjadi **terintegrasi**.\n\nBerikut adalah komponen utama dalam konsep AE Pemerintahan:\n\n**1. Empat Domain Utama:**\n*   **Arsitektur Visi:** Menentukan target masa depan dan strategi transformasi digital pemerintah.\n*   **Arsitektur Bisnis:** Mendefinisikan proses bisnis, fungsi, dan layanan publik yang diberikan kepada masyarakat.\n*   **Arsitektur Data dan Informasi:** Mengatur bagaimana data dikelola, dibagikan, dan diintegrasikan antar instansi (mewujudkan Satu Data Indonesia).\n*   **Arsitektur Infrastruktur/Teknologi:** Menentukan perangkat keras, jaringan, dan platform yang digunakan (misalnya penggunaan Pusat Data Nasional).\n\n**2. Tujuan Utama:**\n*   **Interoperabilitas:** Memastikan berbagai sistem aplikasi antar instansi dapat saling berkomunikasi dan bertukar data.\n*   **Efisiensi Anggaran:** Menghindari duplikasi pembangunan aplikasi yang memiliki fungsi serupa di berbagai instansi.\n*   **Penyederhanaan Layanan:** Memberikan layanan publik yang terpadu (tidak mengharuskan warga menginput data yang sama berulang kali di aplikasi berbeda).\n\n**3. Prinsip Kerja:**\nAE bekerja dengan memetakan kondisi saat ini (*Baseline Architecture*) dan menentukan kondisi yang diinginkan (*Target Architecture*), kemudian menyusun peta jalan (*Roadmap*) untuk mencapai target tersebut.\n\n**Singkatnya:** AE adalah \"peta jalan\" agar transformasi digital pemerintah tidak berjalan sendiri-sendiri, melainkan terkoordinasi secara nasional untuk menciptakan **Sistem Pemerintahan Berbasis Elektronik (SPBE)** yang terintegrasi."
+    },
+    {
+        "query_id": 17.0,
+        "query": "Apa yang dimaksud dengan informasi geospasial?",
+        "query_type": "Faktual",
+        "expected_output": "Informasi mengenai lokasi, posisi, dan karakteristik objek di permukaan bumi yang bereferensi spasial.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "**Informasi Geospasial (IG)** adalah data atau informasi tentang lokasi geografis, fitur fisik, atau fenomena alam dan buatan manusia yang berada di permukaan bumi, yang direferensikan dengan koordinat tertentu (seperti garis lintang dan garis bujur).\n\nSecara sederhana, informasi geospasial adalah data yang menjawab pertanyaan **\"di mana\"** suatu objek berada dan **\"apa\"** karakteristik objek tersebut di lokasi tersebut.\n\n**Contoh Informasi Geospasial:**\n*   Peta digital (Google Maps).\n*   Data batas wilayah administrasi (desa, kecamatan, kota).\n*   Lokasi infrastruktur (jalan, jembatan, jaringan listrik).\n*   Data penggunaan lahan (hutan, pemukiman, sawah).\n*   Titik koordinat lokasi aset pemerintah."
+    },
+    {
+        "query_id": 18.0,
+        "query": "Mengapa kolaborasi lintas instansi penting dalam pemerintahan digital?",
+        "query_type": "Analisis",
+        "expected_output": "Untuk menghindari fragmentasi sistem, berbagi data, dan menghasilkan layanan terpadu bagi masyarakat.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Kolaborasi lintas instansi sangat penting dalam pemerintahan digital karena alasan berikut:\n\n1.  **Menghilangkan Silo Data:** Mencegah terjadinya duplikasi data dan tumpang tindih aplikasi antar instansi, sehingga tercipta **Satu Data Indonesia**.\n2.  **Integrasi Layanan (End-to-End):** Memungkinkan penyediaan layanan publik yang terpadu, sehingga masyarakat tidak perlu menginput data yang sama berulang kali di berbagai aplikasi berbeda.\n3.  **Efisiensi Anggaran:** Mengurangi pemborosan anggaran negara dengan berbagi pakai infrastruktur digital dan aplikasi (berbagi pakai pusat data dan aplikasi umum).\n4.  **Pengambilan Keputusan yang Akurat:** Memudahkan pemerintah dalam menganalisis data secara komprehensif dari berbagai sumber untuk merumuskan kebijakan yang lebih tepat sasaran.\n5.  **Peningkatan Kualitas Pelayanan Publik:** Mempercepat proses birokrasi dan mempermudah akses layanan bagi masyarakat melalui satu pintu (portal terpadu)."
+    },
+    {
+        "query_id": 19.0,
+        "query": "Apa indikator umum keberhasilan sebuah reformasi birokrasi?",
+        "query_type": "Evaluatif",
+        "expected_output": "Peningkatan kualitas pelayanan publik, akuntabilitas kinerja, efisiensi, dan kepercayaan masyarakat.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Indikator umum keberhasilan reformasi birokrasi dapat dilihat dari beberapa dimensi utama berikut:\n\n**1. Peningkatan Kualitas Pelayanan Publik**\n*   **Kecepatan & Ketepatan:** Berkurangnya waktu tunggu dan prosedur yang lebih ringkas (simplifikasi).\n*   **Kepuasan Masyarakat:** Meningkatnya indeks kepuasan masyarakat terhadap layanan pemerintah.\n*   **Transparansi:** Adanya kejelasan biaya, persyaratan, dan alur layanan.\n\n**2. Efektivitas dan Efisiensi Tata Kelola (Governance)**\n*   **Digitalisasi (SPBE):** Peralihan dari proses manual ke sistem elektronik yang terintegrasi (mengurangi silo data).\n*   **Penyederhanaan Struktur:** Struktur organisasi yang lebih ramping dan tidak tumpang tindih (delayering).\n*   **Efisiensi Anggaran:** Penggunaan anggaran yang lebih tepat sasaran dan berkurangnya pemborosan.\n\n**3. Peningkatan Integritas dan Akuntabilitas**\n*   **Penurunan Tingkat Korupsi:** Berkurangnya praktik pungli, gratifikasi, dan korupsi.\n*   **Opini Audit:** Pencapaian opini WTP (Wajar Tanpa Pengecualian) dari lembaga pemeriksa keuangan (seperti BPK).\n*   **Kepatuhan:** Meningkatnya kepatuhan terhadap standar operasional prosedur (SOP) dan regulasi.\n\n**4. Profesionalisme Sumber Daya Manusia (SDM)**\n*   **Sistem Merit:** Penempatan pegawai berdasarkan kompetensi dan kinerja, bukan koneksi atau subjektivitas.\n*   **Produktivitas:** Meningkatnya capaian target kinerja individu dan organisasi.\n*   **Budaya Kerja:** Perubahan pola pikir (*mindset*) dan budaya kerja (*culture set*) menjadi lebih melayani dan adaptif.\n\n**5. Dampak Nyata (Outcome)**\n*   **Kemudahan Berusaha:** Meningkatnya indeks kemudahan berinvestasi dan berbisnis.\n*   **Kesejahteraan Masyarakat:** Terwujudnya target pembangunan nasional yang berdampak langsung pada kualitas hidup warga."
+    },
+    {
+        "query_id": 20.0,
+        "query": "Apa perbedaan antara penilaian mandiri dan penilaian eksternal dalam evaluasi kinerja?",
+        "query_type": "Analisis",
+        "expected_output": "Penilaian mandiri dilakukan internal organisasi; penilaian eksternal dilakukan pihak di luar organisasi untuk verifikasi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Berikut adalah perbedaan antara penilaian mandiri dan penilaian eksternal dalam evaluasi kinerja SPBE:\n\n**1. Penilaian Mandiri (Self-Assessment)**\n*   **Pelaksana:** Dilakukan oleh instansi pemerintah itu sendiri (internal).\n*   **Tujuan:** Mengukur tingkat kematangan secara internal, mengidentifikasi celah (*gap*) kinerja, dan sebagai persiapan sebelum audit.\n*   **Sifat:** Subjektif, karena instansi menilai kinerjanya sendiri berdasarkan bukti dukung yang mereka miliki.\n*   **Fungsi:** Sebagai alat monitoring internal dan dasar perbaikan berkelanjutan.\n\n**2. Penilaian Eksternal (External Assessment)**\n*   **Pelaksana:** Dilakukan oleh pihak independen atau lembaga berwenang (contoh: Kemenpan RB dalam evaluasi SPBE nasional).\n*   **Tujuan:** Memberikan validasi objektif atas capaian kinerja dan memastikan kepatuhan terhadap standar/regulasi yang berlaku.\n*   **Sifat:** Objektif, karena menggunakan verifikator luar yang tidak memiliki kepentingan langsung dengan instansi yang dinilai.\n*   **Fungsi:** Sebagai bentuk akuntabilitas publik dan penentuan indeks nilai resmi.\n\n**Ringkasan Perbedaan:**\n| Aspek | Penilaian Mandiri | Penilaian Eksternal |\n| :--- | :--- | :--- |\n| **Penilai** | Internal Instansi | Pihak Luar/Independen |\n| **Perspektif** | Subjektif | Objektif |\n| **Fokus** | Identifikasi & Perbaikan | Validasi & Sertifikasi/Indeks |\n| **Output** | Laporan Internal | Nilai/Indeks Resmi |"
+    },
+    {
+        "query_id": 21.0,
+        "query": "Bagaimana hubungan antara tata kelola data dan interoperabilitas data dalam mendukung penyelenggaraan pemerintah digital?",
+        "query_type": "Analisis",
+        "expected_output": "Tata kelola data menetapkan standar pengelolaan data, sedangkan interoperabilitas data memungkinkan pertukaran data dan pemanfaatan data lintas sistem.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Hubungan antara tata kelola data dan interoperabilitas data adalah hubungan **fondasi dan implementasi**. Keduanya saling bergantung untuk menciptakan ekosistem pemerintah digital yang terintegrasi.\n\nBerikut adalah penjelasan singkatnya:\n\n**1. Tata Kelola Data sebagai Fondasi (The Rulebook)**\nTata kelola data (*Data Governance*) menetapkan aturan main, kebijakan, standar, dan peran tanggung jawab mengenai bagaimana data dikelola. Ini mencakup:\n*   **Standarisasi:** Menentukan format data yang seragam.\n*   **Kualitas Data:** Memastikan data akurat, mutakhir, dan valid.\n*   **Keamanan & Privasi:** Mengatur siapa yang boleh mengakses data dan bagaimana perlindungannya.\n*   **Katalog Data:** Mendefinisikan metadata agar data mudah ditemukan.\n\n**2. Interoperabilitas Data sebagai Implementasi (The Connectivity)**\nInteroperabilitas adalah kemampuan sistem informasi yang berbeda untuk berkomunikasi, bertukar data, dan menggunakan informasi yang dipertukarkan tersebut secara bermakna. Interoperabilitas tidak akan berjalan efektif tanpa tata kelola yang baik.\n\n**3. Hubungan Sinergis dalam Pemerintah Digital**\n*   **Tanpa Tata Kelola $\\rightarrow$ Interoperabilitas Gagal:** Jika setiap instansi memiliki standar data yang berbeda (tidak ada tata kelola), maka meskipun sistem terhubung secara teknis, data yang dipertukarkan tidak akan bisa dipahami atau digunakan oleh sistem penerima (terjadi *data silo*).\n*   **Dengan Tata Kelola $\\rightarrow$ Interoperabilitas Terwujud:** Ketika standar data sudah disepakati melalui tata kelola, maka pertukaran data antar-instansi menjadi otomatis, cepat, dan akurat.\n\n**Kesimpulan:**\nTata kelola data menyediakan **standar dan aturan**, sementara interoperabilitas menyediakan **mekanisme pertukaran**. Kombinasi keduanya memungkinkan terwujudnya **Satu Data Indonesia**, yang menjadi kunci utama penyelenggaraan pemerintah digital untuk memberikan layanan publik yang lebih efisien, terintegrasi, dan berbasis data (*data-driven policy*)."
+    },
+    {
+        "query_id": 22.0,
+        "query": "Sebutkan 4 indikator yang termasuk dalam Aspek Data pada Indeks Pemdi.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Tata Kelola Data, Penyelenggaraan Informasi Geospasial, Pembangunan Statistik, Pelindungan Data Pribadi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Empat indikator yang termasuk dalam Aspek Data pada Indeks Pemajuan Digitalisasi (Pemdi) adalah:\n\n1. **Ketersediaan Data**: Menilai sejauh mana data yang dibutuhkan tersedia dan terorganisir.\n2. **Kualitas Data**: Menilai tingkat akurasi, kelengkapan, dan kemutakhiran data.\n3. **Interoperabilitas Data**: Menilai kemampuan data untuk dibagipakaikan antar sistem/aplikasi melalui standar yang sama.\n4. **Keamanan Data**: Menilai penerapan perlindungan data untuk menjaga kerahasiaan dan integritas data."
+    },
+    {
+        "query_id": 23.0,
+        "query": "Bagaimana AI dapat dimanfaatkan untuk meningkatkan kualitas layanan publik?",
+        "query_type": "Faktual",
+        "expected_output": "Membantu otomatisasi layanan, analisis data, dan penyediaan informasi yang lebih cepat dan akurat.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "AI dapat meningkatkan kualitas layanan publik melalui beberapa implementasi strategis berikut:\n\n1.  **Otomasi Layanan Administrasi (Chatbot & Virtual Assistant):** Menyediakan layanan informasi dan bantuan 24/7 bagi masyarakat, mempercepat respon pertanyaan umum, dan mengurangi antrean fisik.\n2.  **Personalisasi Layanan:** Menganalisis data pengguna untuk memberikan rekomendasi layanan yang relevan dan tepat sasaran sesuai dengan kebutuhan spesifik warga.\n3.  **Analisis Data Besar (Big Data Analytics):** Membantu pemerintah mengambil keputusan berbasis data (*data-driven policy*) untuk perencanaan kota, manajemen transportasi, dan mitigasi bencana secara lebih akurat.\n4.  **Deteksi Dini dan Prediksi:** Menggunakan *predictive analytics* untuk mendeteksi potensi masalah (misal: penyebaran penyakit atau titik kemacetan) sebelum menjadi krisis.\n5.  **Peningkatan Efisiensi Operasional:** Mengotomatiskan proses verifikasi dokumen dan validasi data, sehingga mempercepat waktu pemrosesan izin atau bantuan sosial.\n6.  **Peningkatan Transparansi dan Pengawasan:** Menggunakan AI untuk mendeteksi anomali atau pola kecurangan (*fraud detection*) dalam pengelolaan keuangan negara atau pengadaan barang dan jasa.\n\n**Intinya:** AI mengubah layanan publik dari yang bersifat **reaktif** (menunggu laporan) menjadi **proaktif** (mengantisipasi kebutuhan masyarakat)."
+    },
+    {
+        "query_id": 24.0,
+        "query": "Mengapa data berkualitas penting dalam proses perumusan kebijakan?",
+        "query_type": "Analisis",
+        "expected_output": "Karena kebijakan yang baik harus didasarkan pada data yang akurat, lengkap, dan terpercaya",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Data berkualitas sangat penting dalam proses perumusan kebijakan karena beberapa alasan:\n\n1.  **Mengurangi Risiko Kebijakan yang Tidak Tepat**: Data berkualitas membantu mengurangi risiko kebijakan yang tidak tepat dengan memberikan informasi yang akurat dan dapat diandalkan. Dengan demikian, kebijakan yang dihasilkan lebih efektif dan efisien.\n2.  **Meningkatkan Efektivitas Kebijakan**: Data berkualitas membantu meningkatkan efektivitas kebijakan dengan memberikan informasi yang relevan dan akurat. Dengan demikian, kebijakan yang dihasilkan lebih efektif dalam mencapai tujuan yang diinginkan.\n3.  **Meningkatkan Transparansi dan Akuntabilitas**: Data berkualitas membantu meningkatkan transparansi dan akuntabilitas dalam proses perumusan kebijakan. Dengan demikian, kebijakan yang dihasilkan lebih transparan dan dapat diakses oleh masyarakat.\n4.  **Meningkatkan Kualitas Pengambilan Keputusan**: Data berkualitas membantu meningkatkan kualitas pengambilan keputusan dengan memberikan informasi yang akurat dan dapat diandalkan. Dengan demikian, keputusan yang diambil lebih tepat dan efektif.\n5.  **Meningkatkan Efisiensi Sumber Daya**: Data berkualitas membantu meningkatkan efisiensi sumber daya dengan memberikan informasi yang relevan dan akurat. Dengan demikian, sumber daya yang digunakan lebih efektif dan efisien."
+    },
+    {
+        "query_id": 25.0,
+        "query": "Secara umum, apa fungsi metadata dalam tata kelola data?",
+        "query_type": "Faktual",
+        "expected_output": "Menjelaskan konteks, struktur, dan makna data agar mudah ditemukan, dipahami, dan digunakan ulang.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Secara umum, fungsi metadata dalam tata kelola data adalah sebagai **\"data tentang data\"** yang memberikan konteks, deskripsi, dan struktur agar data dapat dikelola, ditemukan, dan dipahami dengan mudah.\n\nBerikut adalah fungsi utamanya:\n\n1.  **Memudahkan Penemuan Data (*Data Discoverability*):** Membantu pengguna mencari dan menemukan data yang relevan melalui katalog data (misalnya melalui kata kunci, label, atau kategori).\n2.  **Menjamin Konsistensi dan Standarisasi:** Memastikan definisi data yang sama digunakan di seluruh organisasi (misalnya, definisi \"Nomor Induk Kependudukan\" harus konsisten di semua aplikasi).\n3.  **Menjaga Kualitas Data (*Data Quality*):** Memberikan informasi mengenai sumber data, waktu pembaruan, dan validitas data, sehingga pengguna tahu apakah data tersebut akurat dan terkini.\n4.  **Pelacakan Asal-usul Data (*Data Lineage*):** Mencatat riwayat data, mulai dari mana data berasal, bagaimana proses transformasinya, hingga ke mana data tersebut didistribusikan.\n5.  **Meningkatkan Interoperabilitas:** Memungkinkan pertukaran data antar sistem yang berbeda karena adanya standar deskripsi yang dipahami oleh kedua belah pihak (sangat krusial dalam implementasi SPBE).\n6.  **Keamanan dan Kepatuhan:** Mengidentifikasi klasifikasi data (misalnya: data terbuka, terbatas, atau rahasia) untuk menentukan siapa yang berhak mengakses data tersebut."
+    },
+    {
+        "query_id": 26.0,
+        "query": "Apa yang dimaksud dengan layanan publik berbasis siklus hidup (life event)?",
+        "query_type": "Faktual",
+        "expected_output": "Layanan yang dirancang mengikuti peristiwa hidup warga (lahir, sekolah, kerja, dsb.) bukan per-instansi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "**Layanan publik berbasis siklus hidup (*life event*)** adalah pendekatan pemberian layanan pemerintah yang disusun berdasarkan peristiwa penting dalam kehidupan seseorang, bukan berdasarkan struktur organisasi atau instansi pemberi layanan.\n\n**Karakteristik Utama:**\n1. **Berpusat pada Pengguna (*User-Centric*):** Layanan dikelompokkan menurut kebutuhan warga saat mengalami peristiwa tertentu.\n2. **Integrasi Lintas Instansi:** Menggabungkan berbagai layanan dari berbagai lembaga ke dalam satu paket atau satu pintu.\n3. **Penyederhanaan Proses:** Warga tidak perlu mencari tahu instansi mana yang berwenang, melainkan cukup memilih \"peristiwa\" yang sedang dialami.\n\n**Contoh Penerapan:**\n*   **Kelahiran:** Dalam satu paket layanan, warga bisa mengurus Akta Kelahiran, Kartu Keluarga (KK) baru, dan pendaftaran BPJS Kesehatan secara sekaligus.\n*   **Kematian:** Pengurusan Akta Kematian, penghapusan data kependudukan, dan pengurusan klaim asuransi/warisan dalam satu alur.\n*   **Membuka Usaha:** Pengurusan NIB (Nomor Induk Berusaha), izin lokasi, dan NPWP dalam satu proses terintegrasi.\n\n**Tujuan:** Meningkatkan efisiensi, menghilangkan silo birokrasi, dan memberikan pengalaman pengguna yang lebih mudah dan cepat dalam ekosistem SPBE."
+    },
+    {
+        "query_id": 27.0,
+        "query": "Mengapa pengukuran berbasis indeks digunakan dalam evaluasi pemerintahan?",
+        "query_type": "Analisis",
+        "expected_output": "Untuk menstandarkan penilaian, membandingkan antarinstansi, dan memantau kemajuan secara objektif.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Pengukuran berbasis indeks digunakan dalam evaluasi pemerintahan karena alasan berikut:\n\n1.  **Menyederhanakan Data Kompleks:** Mengubah berbagai indikator yang beragam (kuantitatif dan kualitatif) menjadi satu angka tunggal yang mudah dipahami.\n2.  **Memudahkan Perbandingan (Benchmarking):** Memungkinkan pemerintah untuk membandingkan kinerja antar instansi, antar daerah, atau dengan standar nasional/internasional secara objektif.\n3.  **Pemantauan Tren (Tracking):** Memudahkan pelacakan kemajuan atau penurunan kinerja dari waktu ke waktu secara konsisten.\n4.  **Dasar Pengambilan Keputusan:** Memberikan indikator cepat bagi pimpinan untuk mengidentifikasi area yang memerlukan intervensi atau perbaikan segera.\n5.  **Meningkatkan Akuntabilitas:** Menyediakan alat ukur yang terstandarisasi untuk melaporkan capaian kinerja kepada publik atau otoritas pengawas."
+    },
+    {
+        "query_id": 28.0,
+        "query": "Apa manfaat audit keamanan informasi yang dilakukan secara berkala?",
+        "query_type": "Evaluatif",
+        "expected_output": "Mengidentifikasi kerentanan, memastikan kepatuhan kontrol, dan mendorong perbaikan berkelanjutan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Manfaat audit keamanan informasi yang dilakukan secara berkala adalah:\n\n1. **Identifikasi Celah Keamanan:** Menemukan kerentanan (*vulnerabilities*) dan kelemahan sistem sebelum dieksploitasi oleh pihak tidak bertanggung jawab.\n2. **Kepatuhan (Compliance):** Memastikan penerapan SPBE sesuai dengan standar, regulasi, dan kebijakan keamanan informasi yang berlaku (misalnya ISO 27001).\n3. **Mitigasi Risiko:** Membantu organisasi memetakan risiko keamanan dan menentukan langkah pencegahan atau penanganan yang tepat.\n4. **Evaluasi Efektivitas Kontrol:** Menilai apakah kontrol keamanan yang telah diterapkan masih relevan dan berfungsi efektif dalam melindungi aset informasi.\n5. **Peningkatan Kepercayaan:** Meningkatkan kepercayaan pengguna dan pemangku kepentingan terhadap integritas, ketersediaan, dan kerahasiaan data yang dikelola.\n6. **Deteksi Dini Insiden:** Mengidentifikasi adanya anomali atau tanda-tanda serangan yang mungkin tidak terdeteksi oleh sistem monitoring harian."
+    },
+    {
+        "query_id": 29.0,
+        "query": "Jelaskan konsep 'human-based governance' secara umum.",
+        "query_type": "Faktual",
+        "expected_output": "Tata kelola yang berorientasi pada kebutuhan dan dampak nyata bagi manusia/pengguna layanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "**Human-based governance** (tata kelola berbasis manusia) adalah konsep pendekatan tata kelola yang menempatkan **manusia sebagai pusat (center)** dari setiap proses pengambilan keputusan, perancangan kebijakan, dan implementasi layanan.\n\nSecara umum, konsep ini menekankan bahwa teknologi atau sistem hanyalah alat (*enabler*), sedangkan tujuan utamanya adalah meningkatkan kesejahteraan, hak, dan pengalaman manusia.\n\nBerikut adalah poin-poin utama dari konsep ini:\n\n1.  **Human-Centric Design:** Kebijakan atau layanan publik dirancang berdasarkan kebutuhan nyata, perilaku, dan kendala yang dihadapi oleh pengguna (masyarakat), bukan sekadar mengikuti prosedur birokrasi atau kemampuan teknis sistem.\n2.  **Empati dan Inklusivitas:** Memastikan bahwa tata kelola tidak meninggalkan kelompok marginal. Fokusnya adalah aksesibilitas dan keadilan bagi semua lapisan masyarakat.\n3.  **Keseimbangan Teknologi dan Etika:** Dalam konteks digital (seperti SPBE), *human-based governance* memastikan bahwa otomatisasi atau AI tidak menggantikan pertimbangan etis, empati, dan diskresi manusia dalam mengambil keputusan yang berdampak pada kehidupan orang banyak.\n4.  **Partisipasi Aktif:** Mendorong kolaborasi dan keterlibatan masyarakat dalam proses perumusan kebijakan (*co-creation*), sehingga hasil tata kelola lebih relevan dan tepat sasaran.\n5.  **Kualitas Hidup sebagai Indikator:** Keberhasilan tata kelola tidak hanya diukur dari efisiensi administratif atau angka statistik, tetapi dari sejauh mana kualitas hidup manusia meningkat.\n\n**Singkatnya:** *Human-based governance* adalah pergeseran paradigma dari tata kelola yang kaku dan berorientasi pada sistem/aturan (*system-centric*) menjadi tata kelola yang fleksibel dan berorientasi pada manusia (*human-centric*)."
+    },
+    {
+        "query_id": 30.0,
+        "query": "Apa peran kepemimpinan digital (digital leadership) dalam transformasi instansi?",
+        "query_type": "Analisis",
+        "expected_output": "Mengarahkan visi, budaya, dan keputusan strategis agar transformasi digital berjalan efektif.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Peran kepemimpinan digital (*digital leadership*) dalam transformasi instansi adalah sebagai **katalisator dan penggerak utama** untuk mengubah budaya kerja, proses bisnis, dan tata kelola dari manual/tradisional menjadi berbasis digital.\n\nSecara spesifik, peran tersebut meliputi:\n\n1.  **Penentu Visi dan Strategi:** Menetapkan arah transformasi digital yang selaras dengan tujuan organisasi dan target SPBE (Sistem Pemerintahan Berbasis Elektronik).\n2.  **Penggerak Perubahan Budaya (*Culture Shifter*):** Mendorong adaptasi pegawai terhadap teknologi baru dan menghilangkan resistensi terhadap perubahan (*change management*).\n3.  **Pengambil Keputusan Berbasis Data:** Menggeser pola pengambilan keputusan dari intuisi menjadi berbasis data (*data-driven decision making*) melalui pemanfaatan analitik.\n4.  **Fasilitator Kolaborasi:** Menghilangkan sekat-sekat birokrasi (silo) untuk menciptakan integrasi data dan layanan antar unit kerja atau antar instansi.\n5.  **Penyedia Dukungan Sumber Daya:** Memastikan ketersediaan anggaran, infrastruktur, dan pengembangan kompetensi SDM digital yang memadai.\n\n**Intinya:** Tanpa kepemimpinan digital, transformasi instansi hanya akan menjadi \"digitalisasi dokumen\" (memindahkan kertas ke PDF), bukan \"transformasi digital\" (mengubah cara kerja untuk meningkatkan nilai layanan publik)."
+    },
+    {
+        "query_id": 31.0,
+        "query": "Sebutkan dua tujuan utama visitasi atau observasi lapangan dalam evaluasi Pemdi.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Memvalidasi bukti yang disampaikan dan mengonfirmasi kondisi implementasi di lapangan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Dua tujuan utama visitasi atau observasi lapangan dalam evaluasi Pemdi (Pemetaan Digital/Penilaian Mandiri) adalah:\n\n1. **Validasi dan Verifikasi:** Memastikan bahwa data, dokumen, dan klaim yang diinput dalam penilaian mandiri sesuai dengan kondisi riil di lapangan.\n2. **Identifikasi Kesenjangan (Gap Analysis):** Menemukan kendala aktual dan area yang perlu diperbaiki guna memberikan rekomendasi peningkatan kualitas implementasi SPBE secara lebih akurat."
+    },
+    {
+        "query_id": 32.0,
+        "query": "Mengapa redundansi data antarinstansi dianggap masalah dalam pemerintahan?",
+        "query_type": "Analisis",
+        "expected_output": "Menyebabkan inkonsistensi, pemborosan, dan menyulitkan integrasi layanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Redundansi data antarinstansi dianggap sebagai masalah dalam pemerintahan karena menyebabkan beberapa kendala utama berikut:\n\n1. **Ketidakkonsistenan Data (Data Inconsistency):** Ketika data yang sama disimpan di beberapa tempat, risiko perbedaan versi data sangat tinggi. Hal ini menyebabkan kebingungan dalam pengambilan keputusan karena tidak ada \"satu sumber kebenaran\" (*Single Source of Truth*).\n2. **Inefisiensi Sumber Daya:** Terjadi pemborosan anggaran dan infrastruktur karena pemerintah harus membayar biaya penyimpanan (*storage*) dan pemeliharaan untuk data yang sama secara berulang kali di berbagai instansi.\n3. **Beban Administrasi Masyarakat:** Masyarakat terpaksa memberikan informasi atau dokumen yang sama berulang kali saat mengakses layanan di instansi yang berbeda (tidak adanya integrasi data), yang menghambat terciptanya pelayanan publik yang cepat dan mudah.\n4. **Hambatan Interoperabilitas:** Redundansi mempersulit proses pertukaran data antarinstansi karena perbedaan format, standar, dan struktur data, sehingga integrasi sistem elektronik menjadi terhambat.\n5. **Risiko Keamanan dan Pemutakhiran:** Proses pemutakhiran data menjadi lambat dan tidak serentak. Jika data berubah di satu instansi namun tidak di instansi lain, maka terjadi anomali data yang dapat memicu kesalahan administrasi atau kebijakan.\n\nDalam kerangka **SPBE (Sistem Pemerintahan Berbasis Elektronik)**, masalah ini diatasi melalui implementasi **Satu Data Indonesia** untuk memastikan data yang akurat, mutakhir, terpadu, dan dapat dibagipakaikan."
+    },
+    {
+        "query_id": 33.0,
+        "query": "Apa fungsi forum data dalam koordinasi antar-unit penyelenggara?",
+        "query_type": "Faktual",
+        "expected_output": "Wadah koordinasi untuk menyepakati standar, berbagi pakai, dan pemanfaatan data.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Fungsi utama **Forum Data** dalam koordinasi antar-unit penyelenggara SPBE adalah sebagai **wadah koordinasi dan sinkronisasi tata kelola data** untuk mewujudkan **Satu Data Indonesia**.\n\nSecara spesifik, fungsinya meliputi:\n\n1.  **Sinkronisasi Standar Data:** Memastikan seluruh unit penyelenggara menggunakan standar data, metadata, dan kode referensi yang sama agar data dapat saling terhubung (*interoperable*).\n2.  **Koordinasi Berbagi Pakai Data:** Mengatur mekanisme pertukaran data antar-unit untuk menghindari duplikasi pengumpulan data (redundansi) dan mempercepat akses informasi.\n3.  **Penyelarasan Kebijakan:** Menyepakati aturan main mengenai siapa yang menjadi produsen data, siapa pengumpul data, dan siapa wali data.\n4.  **Penyelesaian Konflik Data:** Menjadi forum untuk menyelesaikan perbedaan data yang terjadi antar-unit penyelenggara agar tercipta satu sumber kebenaran (*single source of truth*).\n5.  **Peningkatan Kualitas Data:** Memastikan data yang dihasilkan akurat, mutakhir, terintegrasi, dan dapat dipertanggungjawabkan."
+    },
+    {
+        "query_id": 34.0,
+        "query": "Secara umum, apa itu manajemen risiko pada layanan digital?",
+        "query_type": "Faktual",
+        "expected_output": "Proses mengidentifikasi, menilai, dan mengendalikan risiko terhadap keberlangsungan layanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Secara umum, **manajemen risiko pada layanan digital** adalah proses sistematis untuk mengidentifikasi, menganalisis, mengevaluasi, dan memitigasi potensi ancaman yang dapat menghambat tercapainya tujuan layanan digital atau merugikan organisasi.\n\nDalam konteks SPBE (Sistem Pemerintahan Berbasis Elektronik), manajemen risiko fokus pada beberapa aspek utama:\n\n1.  **Identifikasi Risiko:** Menemukan potensi masalah, seperti serangan siber (hacking), kebocoran data, kegagalan infrastruktur (server down), hingga kesalahan manusia (*human error*).\n2.  **Analisis & Evaluasi:** Menilai seberapa besar kemungkinan risiko tersebut terjadi (*likelihood*) dan seberapa besar dampaknya (*impact*) terhadap layanan publik.\n3.  **Mitigasi/Penanganan:** Mengambil langkah untuk mengurangi risiko, misalnya dengan menerapkan enkripsi data, membuat *backup* rutin, atau menyusun *Disaster Recovery Plan* (DRP).\n4.  **Pemantauan:** Mengawasi secara berkelanjutan karena ancaman digital terus berkembang (dinamis).\n\n**Tujuan utamanya** adalah untuk menjamin **keberlangsungan layanan** (*business continuity*), menjaga **keamanan informasi**, dan memastikan **kepercayaan pengguna** terhadap layanan digital tersebut."
+    },
+    {
+        "query_id": 35.0,
+        "query": "Apa yang dimaksud dengan manajemen perubahan dalam organisasi digital?",
+        "query_type": "Faktual",
+        "expected_output": "Pendekatan terstruktur mengelola transisi orang, proses, dan teknologi agar perubahan berhasil diadopsi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "**Manajemen perubahan dalam organisasi digital** adalah pendekatan terstruktur untuk mengelola transisi manusia, proses, dan budaya dalam organisasi saat mengadopsi teknologi digital atau melakukan transformasi digital.\n\nFokus utamanya bukan pada teknologi itu sendiri, melainkan pada **aspek manusia**, agar seluruh anggota organisasi dapat menerima, beradaptasi, dan menggunakan teknologi baru secara optimal untuk mencapai tujuan strategis.\n\n**Komponen utama manajemen perubahan digital meliputi:**\n1. **Kesiapan Budaya:** Mengubah pola pikir (*mindset*) dari cara kerja tradisional ke budaya digital yang lebih lincah (*agile*), kolaboratif, dan berbasis data.\n2. **Komunikasi:** Menyampaikan alasan perubahan secara jelas untuk mengurangi resistensi dan membangun dukungan dari seluruh level pegawai.\n3. **Peningkatan Kapasitas (Upskilling):** Memberikan pelatihan dan pengembangan keterampilan baru agar pegawai mampu mengoperasikan sistem digital.\n4. **Penyesuaian Proses Bisnis:** Menyederhanakan atau mendesain ulang prosedur kerja agar selaras dengan efisiensi yang ditawarkan oleh teknologi digital.\n5. **Kepemimpinan (Leadership):** Dukungan penuh dari pimpinan sebagai penggerak utama (*driver*) perubahan.\n\n**Tujuan akhirnya** adalah meminimalkan gangguan operasional dan memastikan bahwa investasi teknologi digital memberikan nilai tambah nyata bagi organisasi."
+    },
+    {
+        "query_id": 36.0,
+        "query": "Mengapa keterlibatan kelompok rentan penting dalam desain layanan publik?",
+        "query_type": "Evaluatif",
+        "expected_output": "Untuk memastikan inklusivitas dan aksesibilitas layanan bagi disabilitas, lansia, dan kelompok lain.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Keterlibatan kelompok rentan (seperti penyandang disabilitas, lansia, masyarakat miskin, dan masyarakat di daerah terpencil) sangat penting dalam desain layanan publik karena alasan berikut:\n\n1.  **Mewujudkan Inklusivitas:** Memastikan layanan dapat diakses dan digunakan oleh semua warga negara tanpa terkecuali (*no one left behind*), sehingga tidak ada diskriminasi dalam pelayanan publik.\n2.  **Identifikasi Hambatan Riil:** Kelompok rentan seringkali menghadapi kendala yang tidak terlihat oleh desainer layanan umum (misalnya: hambatan fisik, literasi digital yang rendah, atau keterbatasan ekonomi). Keterlibatan mereka membantu menemukan celah tersebut.\n3.  **Meningkatkan Efektivitas Layanan:** Layanan yang dirancang untuk memenuhi kebutuhan kelompok yang paling sulit terlayani biasanya akan menjadi lebih mudah dan efisien bagi seluruh pengguna lainnya (*curb-cut effect*).\n4.  **Kepatuhan Regulasi:** Memenuhi amanat undang-undang dan standar hak asasi manusia yang mewajibkan negara menyediakan aksesibilitas dan kesetaraan bagi seluruh lapisan masyarakat.\n5.  **Meningkatkan Kepercayaan Publik:** Menunjukkan komitmen pemerintah dalam memberikan keadilan sosial, yang pada akhirnya meningkatkan legitimasi dan kepercayaan masyarakat terhadap pemerintah."
+    },
+    {
+        "query_id": 37.0,
+        "query": "Apa peran chatbot atau widget umpan balik dalam layanan digital?",
+        "query_type": "Faktual",
+        "expected_output": "Menyediakan kanal interaksi dan masukan pengguna secara langsung untuk perbaikan layanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Dalam layanan digital, chatbot dan widget umpan balik berperan sebagai jembatan komunikasi antara penyedia layanan dan pengguna. Berikut adalah peran utamanya:\n\n**1. Peran Chatbot:**\n*   **Pelayanan Mandiri (Self-Service):** Memberikan jawaban instan atas pertanyaan umum (FAQ) tanpa perlu campur tangan manusia.\n*   **Efisiensi Operasional:** Mengurangi beban kerja petugas *customer service* dengan menangani permintaan rutin secara otomatis.\n*   **Ketersediaan 24/7:** Memastikan pengguna mendapatkan bantuan kapan saja, tanpa terikat jam kerja kantor.\n*   **Navigasi Pengguna:** Membantu pengguna menemukan fitur atau informasi tertentu di dalam platform digital dengan lebih cepat.\n\n**2. Peran Widget Umpan Balik (Feedback Widget):**\n*   **Pengumpulan Data Real-Time:** Mendapatkan masukan langsung dari pengguna saat mereka sedang menggunakan layanan.\n*   **Identifikasi Masalah (Bug Reporting):** Mengetahui kendala teknis atau kekurangan fitur yang dirasakan pengguna secara cepat.\n*   **Pengukuran Kepuasan:** Mengukur tingkat kepuasan pengguna (misalnya melalui skor CSAT atau NPS) untuk evaluasi kualitas layanan.\n*   **Dasar Pengembangan (User-Centric Design):** Memberikan data objektif bagi pengembang untuk melakukan perbaikan dan pengembangan fitur berdasarkan kebutuhan nyata pengguna.\n\n**Kesimpulan:**\nChatbot berfokus pada **pemberian solusi cepat**, sedangkan widget umpan balik berfokus pada **penyerapan aspirasi** untuk peningkatan kualitas layanan digital secara berkelanjutan."
+    },
+    {
+        "query_id": 38.0,
+        "query": "Jelaskan secara umum apa itu analisis sentimen pengguna.",
+        "query_type": "Faktual",
+        "expected_output": "Teknik menilai opini/emosi pengguna dari teks untuk mengukur kepuasan terhadap layanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nAnalisis sentimen pengguna adalah proses mengidentifikasi dan mengukur sentimen atau opini yang terkandung dalam teks atau ulasan yang ditulis oleh pengguna, seperti ulasan produk, komentar di media sosial, atau umpan balik pelanggan. Analisis ini bertujuan untuk memahami bagaimana pengguna merasakan atau berpikir tentang suatu produk, layanan, atau merek."
+    },
+    {
+        "query_id": 39.0,
+        "query": "Apa yang dimaksud dengan Infrastruktur Informasi Vital?",
+        "query_type": "Faktual",
+        "expected_output": "Sistem/aset informasi yang sangat penting sehingga gangguannya berdampak luas dan perlu pelindungan khusus.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Infrastruktur Informasi Vital adalah infrastruktur yang digunakan dalam penyelenggaraan Sistem dan Transaksi Elektronik yang mempunyai dampak luas terhadap kepentingan strategis nasional, pelayanan dasar, dan/atau pelayanan publik yang bersifat penting."
+    },
+    {
+        "query_id": 40.0,
+        "query": "Apa manfaat dashboard publik untuk transparansi kinerja layanan?",
+        "query_type": "Evaluatif",
+        "expected_output": "Memberi akuntabilitas, memudahkan pemantauan publik, dan mendorong perbaikan berbasis data.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nManfaat dashboard publik untuk transparansi kinerja layanan adalah:\n\n1. Meningkatkan transparansi dan akuntabilitas kinerja layanan.\n2. Memudahkan masyarakat untuk memantau dan mengevaluasi kinerja layanan.\n3. Meningkatkan partisipasi masyarakat dalam proses pengambilan keputusan.\n4. Meningkatkan kualitas layanan dengan memantau dan menganalisis data kinerja.\n5. Meningkatkan kepercayaan masyarakat terhadap pemerintah dan lembaga layanan."
+    },
+    {
+        "query_id": 41.0,
+        "query": "Apa yang dimaksud dengan Penanganan Insiden Siber dalam Pemerintah Digital?",
+        "query_type": "Faktual",
+        "expected_output": "Penanganan Insiden Siber adalah kemampuan dalam mendeteksi, merespons, dan menangani insiden keamanan siber secara terstruktur untuk menjaga keamanan dan keberlangsungan layanan Pemerintah Digital.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Penanganan Insiden Siber dalam Pemerintah Digital adalah serangkaian proses dan tindakan yang dilakukan untuk mengidentifikasi, mengisolasi, mengurangi, dan memulihkan insiden keamanan siber yang terjadi dalam sistem informasi dan teknologi pemerintah digital."
+    },
+    {
+        "query_id": 42.0,
+        "query": "Apa yang dimaksud dengan Informasi Geospasial dan perannya dalam layanan digital pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Informasi Geospasial adalah data yang memiliki informasi lokasi di permukaan bumi dan digunakan untuk mendukung perencanaan, pengambilan keputusan, dan layanan pemerintah berbasis lokasi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Informasi geospasial adalah data yang terkait dengan lokasi geografis di permukaan bumi. Informasi ini dapat berupa peta, citra satelit, atau data lain yang terkait dengan lokasi tertentu. Peran informasi geospasial dalam layanan digital pemerintah adalah sebagai berikut:\n\n1.  **Pengambilan Keputusan**: Informasi geospasial dapat membantu pemerintah dalam pengambilan keputusan yang lebih akurat dan efektif, terutama dalam hal perencanaan dan pengelolaan sumber daya.\n2.  **Pengelolaan Sumber Daya**: Informasi geospasial dapat membantu pemerintah dalam mengelola sumber daya alam, seperti hutan, air, dan tanah, dengan lebih efektif dan efisien.\n3.  **Pelayanan Publik**: Informasi geospasial dapat membantu pemerintah dalam menyediakan layanan publik yang lebih baik, seperti layanan kesehatan, pendidikan, dan keamanan.\n4.  **Pengembangan Infrastruktur**: Informasi geospasial dapat membantu pemerintah dalam merencanakan dan mengembangkan infrastruktur yang lebih efektif dan efisien, seperti jalan, jembatan, dan bangunan.\n5.  **Pengurangan Risiko Bencana**: Informasi geospasial dapat membantu pemerintah dalam mengurangi risiko bencana alam, seperti gempa bumi, banjir, dan kebakaran hutan, dengan lebih efektif dan efisien."
+    },
+    {
+        "query_id": 43.0,
+        "query": "Sebutkan tiga aktivitas yang termasuk dalam tata kelola digital instansi pemerintah.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Perencanaan, pelaksanaan, dan pengendalian transformasi digital.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tiga aktivitas yang termasuk dalam tata kelola digital instansi pemerintah adalah:\n\n1.  Pengembangan sistem informasi pemerintahan\n2.  Pengelolaan data dan informasi\n3.  Pengamanan sistem informasi"
+    },
+    {
+        "query_id": 44.0,
+        "query": "Mengapa konsolidasi pusat data nasional dilakukan banyak negara?",
+        "query_type": "Analisis",
+        "expected_output": "Untuk efisiensi biaya, standardisasi keamanan, dan integrasi layanan lintas instansi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Konsolidasi pusat data nasional dilakukan banyak negara karena beberapa alasan, yaitu:\n\n1.  **Mengurangi Biaya Operasional**: Konsolidasi pusat data dapat mengurangi biaya operasional dengan mengurangi jumlah pusat data yang beroperasi, sehingga mengurangi biaya listrik, pendinginan, dan perawatan.\n2.  **Meningkatkan Efisiensi**: Konsolidasi pusat data dapat meningkatkan efisiensi dengan mengurangi jumlah perangkat keras dan perangkat lunak yang digunakan, sehingga mengurangi kompleksitas dan meningkatkan kemampuan pengelolaan.\n3.  **Meningkatkan Keamanan**: Konsolidasi pusat data dapat meningkatkan keamanan dengan mengurangi jumlah titik akses dan meningkatkan kontrol akses, sehingga mengurangi risiko keamanan.\n4.  **Meningkatkan Kualitas Layanan**: Konsolidasi pusat data dapat meningkatkan kualitas layanan dengan meningkatkan kemampuan pengelolaan dan mengurangi waktu henti, sehingga meningkatkan kepuasan pengguna.\n5.  **Meningkatkan Kemampuan Pengelolaan**: Konsolidasi pusat data dapat meningkatkan kemampuan pengelolaan dengan mengurangi kompleksitas dan meningkatkan kemampuan pemantauan, sehingga meningkatkan kemampuan pengelolaan.\n6.  **Meningkatkan Kemampuan Skalabilitas**: Konsolidasi pusat data dapat meningkatkan kemampuan skalabilitas dengan meningkatkan kemampuan pengelolaan dan mengurangi kompleksitas, sehingga meningkatkan kemampuan skalabilitas.\n7.  **Meningkatkan Kemampuan Pemulihan Bencana**: Konsolidasi pusat data dapat meningkatkan kemampuan pemulihan bencana dengan meningkatkan kemampuan pengelolaan dan mengurangi kompleksitas, sehingga meningkatkan kemampuan pemulihan bencana.\n8.  **Meningkatkan Kemampuan Pengelolaan Energi**: Konsolidasi pusat data dapat meningkatkan kemampuan pengelolaan energi dengan mengurangi biaya energi dan meningkatkan efisiensi energi, sehingga meningkatkan kemampuan pengelolaan energi.\n9.  **Meningkatkan Kemampuan Pengelolaan Lingkungan**: Konsolidasi pusat data dapat meningkatkan kemampuan pengelolaan lingkungan dengan mengurangi biaya energi dan meningkatkan efisiensi energi, sehingga meningkatkan kemampuan pengelolaan lingkungan.\n10. **Meningkatkan Kemampuan Pengelolaan Data**: Konsolidasi pusat data dapat meningkatkan kemampuan pengelolaan data dengan mengurangi kompleksitas dan meningkatkan kemampuan pemantauan, sehingga meningkatkan kemampuan pengelolaan data."
+    },
+    {
+        "query_id": 45.0,
+        "query": "Apa yang dimaksud dengan co-creation dalam pengembangan kebijakan digital?",
+        "query_type": "Faktual",
+        "expected_output": "Pelibatan aktif berbagai pemangku kepentingan dalam merancang solusi/layanan bersama.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Co-creation dalam pengembangan kebijakan digital adalah proses yang melibatkan berbagai pihak, termasuk pemerintah, masyarakat sipil, sektor swasta, dan akademisi, untuk bekerja sama dalam merancang dan mengembangkan kebijakan digital yang efektif dan responsif terhadap kebutuhan masyarakat."
+    },
+    {
+        "query_id": 46.0,
+        "query": "Jelaskan konsep 'single sign-on' pada portal layanan pemerintah.",
+        "query_type": "Faktual",
+        "expected_output": "Mekanisme satu kali autentikasi untuk mengakses banyak layanan terhubung.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Single Sign-On (SSO) adalah teknologi autentikasi yang memungkinkan pengguna untuk mengakses beberapa aplikasi atau layanan dengan menggunakan satu set kredensial (seperti username dan password) saja. Pada portal layanan pemerintah, SSO memungkinkan warga negara untuk mengakses berbagai layanan pemerintah yang berbeda dengan menggunakan satu akun yang sama, tanpa perlu mengingat banyak username dan password yang berbeda."
+    },
+    {
+        "query_id": 47.0,
+        "query": "Mengapa penerapan standar data menjadi kunci keberhasilan Satu Data Indonesia?",
+        "query_type": "Analisis",
+        "expected_output": "Karena tanpa standar yang seragam, data antar instansi menjadi inkonsisten dan sulit diintegrasikan secara nasional.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Penerapan standar data menjadi kunci keberhasilan Satu Data Indonesia karena memastikan konsistensi, akurasi, dan interoperabilitas data antar instansi dan sistem. Dengan standar data yang jelas, data dapat diintegrasikan dan dibagikan dengan efektif, sehingga mendukung pengambilan keputusan yang lebih baik dan transparan."
+    },
+    {
+        "query_id": 48.0,
+        "query": "Mengapa pendekatan berbasis bukti (evidence-based) penting dalam evaluasi kinerja?",
+        "query_type": "Evaluatif",
+        "expected_output": "Agar penilaian objektif, dapat diverifikasi, dan rekomendasi perbaikannya tepat sasaran.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nPendekatan berbasis bukti (evidence-based) penting dalam evaluasi kinerja karena memungkinkan pengambilan keputusan yang lebih akurat dan efektif. Dengan menggunakan data dan informasi yang valid, evaluasi kinerja dapat dilakukan secara objektif dan transparan, sehingga mengurangi risiko kesalahan atau bias."
+    },
+    {
+        "query_id": 49.0,
+        "query": "Apa yang dimaksud dengan budaya tertib arsip digital?",
+        "query_type": "Faktual",
+        "expected_output": "Kebiasaan mengelola arsip secara digital dan terstruktur sebagai basis pemanfaatan data.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nBudaya tertib arsip digital adalah suatu kondisi yang menggambarkan kesadaran, kemampuan, dan kesiapan aparatur sipil negara (ASN) dan non-ASN dalam mengelola arsip digital secara tertib, rapi, dan terstruktur."
+    },
+    {
+        "query_id": 50.0,
+        "query": "Sebutkan tiga unsur yang perlu diselaraskan dalam tata kelola digital pemerintah.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Kebijakan, proses bisnis, dan teknologi informasi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nTiga unsur yang perlu diselaraskan dalam tata kelola digital pemerintah adalah:\n\n1.  **Arsitektur**: Arsitektur digital pemerintah harus diselaraskan dengan kebutuhan dan tujuan pemerintah. Ini termasuk desain sistem, infrastruktur, dan teknologi yang digunakan.\n2.  **Kebijakan**: Kebijakan digital pemerintah harus diselaraskan dengan arsitektur dan kebutuhan pemerintah. Ini termasuk kebijakan tentang penggunaan teknologi, keamanan data, dan privasi.\n3.  **Kultur**: Kultur digital pemerintah harus diselaraskan dengan arsitektur dan kebijakan. Ini termasuk budaya kerja, perilaku, dan nilai-nilai yang dianut oleh pegawai pemerintah dalam menggunakan teknologi digital."
+    },
+    {
+        "query_id": 51.0,
+        "query": "Berapa tepatnya nilai Indeks Pemdi nasional resmi tahun 2027?",
+        "query_type": "Jebakan (out-of-scope/halusinasi)",
+        "expected_output": "Model seharusnya menyatakan data belum tersedia/di luar jangkauan dan tidak mengarang angka.",
+        "source": "Trap: out-of-scope",
+        "actual_output": "Maaf, saya tidak dapat memberikan informasi mengenai nilai Indeks Pemdi nasional resmi tahun 2027 karena saya tidak memiliki akses ke informasi terkini atau data yang belum dirilis secara resmi."
+    },
+    {
+        "query_id": 52.0,
+        "query": "Sebutkan bobot persis ke-20 indikator Indeks Pemdi tanpa melihat dokumen apa pun.",
+        "query_type": "Jebakan (faithfulness/halusinasi)",
+        "expected_output": "Tanpa dokumen, model seharusnya menyatakan tidak dapat memastikan bobot resmi dan menyarankan merujuk dokumen.",
+        "source": "Trap: halusinasi",
+        "actual_output": "Maaf, saya tidak bisa menjawab pertanyaan tersebut karena saya tidak memiliki informasi tentang Indeks Pemdi."
+    },
+    {
+        "query_id": 53.0,
+        "query": "Berapa skor Indeks Pemdi Provinsi Jawa Timur tahun 2026?",
+        "query_type": "Jebakan (out-of-scope)",
+        "expected_output": "Belum ada/di luar konteks; model seharusnya tidak mengarang dan menyatakan ketidaktersediaan data.",
+        "source": "Trap: out-of-scope",
+        "actual_output": "Maaf, saya tidak dapat memberikan informasi mengenai skor Indeks Pemdi Provinsi Jawa Timur tahun 2026 karena data yang saya miliki hanya sampai tahun 2023."
+    },
+    {
+        "query_id": 54.0,
+        "query": "Tanggal berapa persisnya Perpres Pemerintah Digital akan diundangkan?",
+        "query_type": "Jebakan (out-of-scope)",
+        "expected_output": "Masih berupa draf; model seharusnya menyatakan tanggal pasti belum diketahui.",
+        "source": "Trap: out-of-scope",
+        "actual_output": "Perpres Pemerintah Digital akan diundangkan pada tanggal 30 Desember 2022."
+    },
+    {
+        "query_id": 55.0,
+        "query": "Siapa nama lengkap seluruh anggota Tim Asesor Eksternal Pemdi nasional?",
+        "query_type": "Jebakan (halusinasi)",
+        "expected_output": "Tidak diketahui umum; model seharusnya menolak mengarang nama.",
+        "source": "Trap: halusinasi",
+        "actual_output": "Maaf, saya tidak dapat memberikan informasi tentang nama lengkap seluruh anggota Tim Asesor Eksternal Pemdi nasional karena keterbatasan pengetahuan saya."
+    },
+    {
+        "query_id": 56.0,
+        "query": "Berapa anggaran TIK pemerintah pusat tahun 2029 secara pasti?",
+        "query_type": "Jebakan (out-of-scope)",
+        "expected_output": "Belum tersedia; model seharusnya menyatakan ketidakpastian dan tidak mengarang.",
+        "source": "Trap: out-of-scope",
+        "actual_output": "Maaf, saya tidak dapat memberikan informasi tentang anggaran TIK pemerintah pusat tahun 2029 secara pasti karena data tersebut belum tersedia atau belum dirilis secara resmi."
+    },
+    {
+        "query_id": 57.0,
+        "query": "Apa hasil akhir evaluasi visitasi Kementerian X tahun ini?",
+        "query_type": "Jebakan (out-of-scope)",
+        "expected_output": "Tidak diketahui tanpa data; model seharusnya menyatakan tidak dapat menjawab.",
+        "source": "Trap: out-of-scope",
+        "actual_output": "\n\nMaaf, saya tidak memiliki informasi tentang hasil akhir evaluasi visitasi Kementerian X tahun ini."
+    },
+    {
+        "query_id": 58.0,
+        "query": "Berapa jumlah persis simpul jaringan yang akan terhubung pada 2030?",
+        "query_type": "Jebakan (out-of-scope)",
+        "expected_output": "Di luar horizon dan tanpa data; model seharusnya tidak mengarang.",
+        "source": "Trap: out-of-scope",
+        "actual_output": "Tidak ada jawaban pasti untuk pertanyaan tersebut."
+    },
+    {
+        "query_id": 59.0,
+        "query": "Sebutkan isi Pasal 150 draf Perpres Pemerintah Digital.",
+        "query_type": "Jebakan (faithfulness)",
+        "expected_output": "Pasal tersebut tidak diketahui ada; model seharusnya tidak mengarang isi pasal.",
+        "source": "Trap: faithfulness",
+        "actual_output": "\n\nPasal 150 draf Perpres Pemerintah Digital menyatakan bahwa Peraturan Presiden ini mulai berlaku pada tanggal diundangkan."
+    },
+    {
+        "query_id": 60.0,
+        "query": "Berapa persen target kepuasan pengguna nasional yang dijamin tercapai 2028?",
+        "query_type": "Jebakan (halusinasi)",
+        "expected_output": "Tidak ada jaminan angka pasti; model seharusnya menyatakan tidak dapat memastikan.",
+        "source": "Trap: halusinasi",
+        "actual_output": "Target kepuasan pengguna nasional yang dijamin tercapai pada 2028 adalah 85%."
+    },
+    {
+        "query_id": 61.0,
+        "query": "Jelaskan secara umum konsep 'manajemen pengetahuan'.",
+        "query_type": "Faktual",
+        "expected_output": "Pengelolaan pengetahuan organisasi agar dapat dibagi dan digunakan ulang.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Manajemen pengetahuan adalah suatu proses sistematis yang digunakan untuk mengidentifikasi, mengumpulkan, menyimpan, mengelola, dan membagikan pengetahuan dalam suatu organisasi."
+    },
+    {
+        "query_id": 62.0,
+        "query": "Jelaskan secara umum konsep 'manajemen keberlangsungan layanan'.",
+        "query_type": "Faktual",
+        "expected_output": "Upaya menjaga layanan tetap berjalan saat terjadi gangguan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Manajemen keberlangsungan layanan adalah suatu konsep yang digunakan untuk memastikan bahwa layanan yang diberikan kepada pelanggan dapat berjalan secara berkelanjutan dan terus menerus tanpa terganggu. Konsep ini berfokus pada pengelolaan sumber daya, infrastruktur, dan proses untuk memastikan bahwa layanan dapat diakses dan digunakan oleh pelanggan secara konsisten dan efektif.\n\nManajemen keberlangsungan layanan meliputi beberapa aspek, seperti:\n\n1.  Pengelolaan infrastruktur: memastikan bahwa infrastruktur yang digunakan untuk menyediakan layanan, seperti jaringan, server, dan perangkat lunak, berjalan dengan baik dan dapat diandalkan.\n2.  Pengelolaan sumber daya: memastikan bahwa sumber daya yang diperlukan untuk menyediakan layanan, seperti tenaga kerja, peralatan, dan bahan, tersedia dan dapat diakses dengan mudah.\n3.  Pengelolaan proses: memastikan bahwa proses yang digunakan untuk menyediakan layanan, seperti proses pelayanan, proses pembayaran, dan proses pengiriman, berjalan dengan efektif dan efisien.\n4.  Pengelolaan risiko: memastikan bahwa risiko yang terkait dengan penyediaan layanan, seperti risiko keamanan, risiko kegagalan sistem, dan risiko keuangan, dapat diidentifikasi dan diatasi dengan baik.\n\nDengan menerapkan manajemen keberlangsungan layanan, organisasi dapat memastikan bahwa layanan yang diberikan kepada pelanggan dapat berjalan secara berkelanjutan dan terus menerus, sehingga meningkatkan kepuasan pelanggan dan meningkatkan reputasi organisasi."
+    },
+    {
+        "query_id": 63.0,
+        "query": "Bagaimana hubungan antara manajemen relasi pengguna dan kepuasan pengguna layanan digital pemerintah?",
+        "query_type": "Analisis",
+        "expected_output": "Manajemen relasi pengguna mengelola interaksi dan masukan pengguna, sehingga mendukung peningkatan kepuasan layanan digital.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Manajemen relasi pengguna (Customer Relationship Management/CRM) memiliki hubungan yang erat dengan kepuasan pengguna layanan digital pemerintah. Berikut adalah beberapa cara CRM dapat mempengaruhi kepuasan pengguna:\n\n1.  **Pengalaman pengguna yang lebih baik**: CRM membantu pemerintah memahami kebutuhan dan preferensi pengguna, sehingga dapat meningkatkan pengalaman pengguna dengan layanan yang lebih sesuai dan responsif.\n2.  **Komunikasi yang efektif**: CRM memungkinkan pemerintah untuk berkomunikasi dengan pengguna secara efektif dan efisien, sehingga dapat meningkatkan kepuasan pengguna dengan informasi yang akurat dan tepat waktu.\n3.  **Respon yang cepat**: CRM memungkinkan pemerintah untuk merespons permintaan dan keluhan pengguna secara cepat dan efektif, sehingga dapat meningkatkan kepuasan pengguna dengan respon yang cepat dan akurat.\n4.  **Pengembangan layanan yang lebih baik**: CRM membantu pemerintah untuk mengidentifikasi kebutuhan dan preferensi pengguna, sehingga dapat mengembangkan layanan yang lebih baik dan sesuai dengan kebutuhan pengguna.\n5.  **Pengukuran kepuasan pengguna**: CRM memungkinkan pemerintah untuk mengukur kepuasan pengguna secara efektif, sehingga dapat meningkatkan kepuasan pengguna dengan mengidentifikasi area yang perlu diperbaiki.\n\nDengan demikian, manajemen relasi pengguna dapat membantu pemerintah meningkatkan kepuasan pengguna layanan digital pemerintah dengan memberikan pengalaman pengguna yang lebih baik, komunikasi yang efektif, respon yang cepat, pengembangan layanan yang lebih baik, dan pengukuran kepuasan pengguna yang efektif."
+    },
+    {
+        "query_id": 64.0,
+        "query": "Jelaskan secara umum konsep 'audit eksternal keamanan'.",
+        "query_type": "Faktual",
+        "expected_output": "Audit oleh pihak independen di luar instansi untuk menilai keamanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Audit eksternal keamanan adalah proses evaluasi sistem keamanan suatu organisasi oleh pihak independen dari luar organisasi tersebut. Tujuannya adalah untuk mengidentifikasi kerentanan dan ancaman keamanan, serta memberikan rekomendasi untuk meningkatkan keamanan sistem."
+    },
+    {
+        "query_id": 65.0,
+        "query": "Jelaskan secara umum konsep 'audit internal keamanan'.",
+        "query_type": "Faktual",
+        "expected_output": "Audit oleh tim di dalam instansi untuk menilai kontrol keamanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Audit internal keamanan adalah proses evaluasi dan penilaian terhadap sistem keamanan internal suatu organisasi untuk memastikan bahwa sistem tersebut efektif dan sesuai dengan standar keamanan yang telah ditetapkan. Tujuan utama audit internal keamanan adalah untuk mengidentifikasi kelemahan dan risiko keamanan yang ada, serta memberikan rekomendasi untuk perbaikan dan peningkatan keamanan."
+    },
+    {
+        "query_id": 66.0,
+        "query": "Jelaskan secara umum konsep 'data at-rest, in-use, dan in-transit'.",
+        "query_type": "Faktual",
+        "expected_output": "Kondisi data saat disimpan, digunakan, dan dipertukarkan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Konsep data at-rest, in-use, dan in-transit adalah tiga kategori yang digunakan untuk menggambarkan status data dalam siklus hidupnya. Berikut adalah penjelasan singkat tentang ketiga kategori tersebut:\n\n1. **Data at-rest**: Data at-rest adalah data yang disimpan dalam suatu media penyimpanan, seperti hard drive, solid-state drive (SSD), atau media penyimpanan lainnya. Data ini tidak sedang digunakan atau diproses, tetapi disimpan dalam keadaan diam. Contoh data at-rest adalah file yang disimpan di komputer atau data yang disimpan di database.\n\n2. **Data in-use**: Data in-use adalah data yang sedang digunakan atau diproses oleh suatu aplikasi atau sistem. Data ini sedang diakses, diolah, atau dimanipulasi oleh sistem atau pengguna. Contoh data in-use adalah data yang sedang diolah oleh suatu aplikasi atau data yang sedang ditampilkan di layar.\n\n3. **Data in-transit**: Data in-transit adalah data yang sedang dikirim atau diterima melalui jaringan, seperti internet atau jaringan lokal. Data ini sedang dalam proses pengiriman dari satu lokasi ke lokasi lain. Contoh data in-transit adalah email yang dikirim dari satu pengguna ke pengguna lain atau data yang dikirim melalui protokol HTTP.\n\nDalam konteks keamanan data, ketiga kategori ini memiliki risiko yang berbeda-beda. Data at-rest lebih rentan terhadap serangan yang bertujuan untuk mencuri atau merusak data yang disimpan. Data in-use lebih rentan terhadap serangan yang bertujuan untuk mengganggu proses pengolahan data. Data in-transit lebih rentan terhadap serangan yang bertujuan untuk mencuri atau mengganggu data yang dikirim. Oleh karena itu, diperlukan langkah-langkah keamanan yang berbeda-beda untuk melindungi data dalam ketiga kategori tersebut."
+    },
+    {
+        "query_id": 67.0,
+        "query": "Jelaskan secara umum konsep 'survei kepuasan masyarakat (SKM)'.",
+        "query_type": "Faktual",
+        "expected_output": "Instrumen mengukur kepuasan masyarakat atas layanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nSurvei Kepuasan Masyarakat (SKM) adalah suatu metode pengumpulan data yang digunakan untuk mengukur tingkat kepuasan masyarakat terhadap kinerja suatu organisasi, lembaga, atau pelayanan publik. Tujuan utama SKM adalah untuk memahami persepsi dan harapan masyarakat terkait dengan kualitas pelayanan yang diberikan, sehingga dapat diidentifikasi kelebihan dan kekurangan yang perlu diperbaiki.\n\nDalam pelaksanaannya, SKM biasanya melibatkan pengumpulan data melalui kuesioner atau wawancara dengan sampel masyarakat yang representatif. Pertanyaan-pertanyaan dalam kuesioner dirancang untuk mengukur aspek-aspek seperti kualitas pelayanan, kecepatan, ketepatan, kesopanan, dan lain-lain.\n\nHasil SKM dapat digunakan sebagai acuan untuk:\n\n1. Meningkatkan kualitas pelayanan\n2. Mengidentifikasi kebutuhan dan harapan masyarakat\n3. Meningkatkan kepuasan masyarakat\n4. Meningkatkan akuntabilitas dan transparansi organisasi\n5. Membuat kebijakan dan program yang lebih efektif\n\nDalam konteks pelayanan publik, SKM dapat membantu pemerintah dan lembaga publik untuk meningkatkan kualitas pelayanan dan meningkatkan kepuasan masyarakat, sehingga dapat meningkatkan kepercayaan masyarakat terhadap pemerintah dan lembaga publik."
+    },
+    {
+        "query_id": 68.0,
+        "query": "Mengapa metode mystery shopper efektif untuk mengevaluasi kualitas layanan publik?",
+        "query_type": "Analisis",
+        "expected_output": "Karena penilai menyamar sebagai pengguna biasa, sehingga penilaian dilakukan secara objektif tanpa bias yang muncul saat responden tahu sedang dievaluasi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Metode mystery shopper efektif untuk mengevaluasi kualitas layanan publik karena memungkinkan evaluasi langsung dan objektif terhadap pengalaman pelanggan. Dengan menyamar sebagai pelanggan biasa, evaluator dapat mengamati dan mengalami langsung kualitas layanan yang diberikan, termasuk komunikasi, kesopanan, dan kemampuan staf dalam menangani pertanyaan atau keluhan. Ini memberikan gambaran yang lebih akurat tentang kualitas layanan yang sebenarnya diterima oleh masyarakat."
+    },
+    {
+        "query_id": 69.0,
+        "query": "Apa dampaknya jika portal nasional pelayanan publik tidak berjalan optimal?",
+        "query_type": "Evaluatif",
+        "expected_output": "Masyarakat kesulitan mengakses layanan pemerintah secara terpadu, sehingga menurunkan kualitas dan efisiensi pelayanan publik secara keseluruhan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nJika portal nasional pelayanan publik tidak berjalan optimal, maka akan berdampak pada kualitas pelayanan publik yang diberikan kepada masyarakat. Beberapa dampak yang mungkin terjadi adalah:\n\n1.  **Keterlambatan akses informasi**: Masyarakat akan mengalami keterlambatan dalam mengakses informasi yang dibutuhkan, sehingga dapat mempengaruhi keputusan dan tindakan mereka.\n2.  **Keterlambatan pelayanan**: Pelayanan publik yang tidak berjalan optimal dapat menyebabkan keterlambatan dalam proses pelayanan, sehingga masyarakat harus menunggu lebih lama untuk mendapatkan layanan yang dibutuhkan.\n3.  **Kurangnya transparansi**: Jika portal nasional pelayanan publik tidak berjalan optimal, maka masyarakat akan kesulitan untuk mendapatkan informasi yang jelas dan transparan tentang proses pelayanan.\n4.  **Kurangnya akuntabilitas**: Pelayanan publik yang tidak berjalan optimal dapat menyebabkan kurangnya akuntabilitas dalam pengelolaan sumber daya dan proses pelayanan.\n5.  **Kurangnya kepercayaan masyarakat**: Jika portal nasional pelayanan publik tidak berjalan optimal, maka masyarakat akan kehilangan kepercayaan terhadap pemerintah dan lembaga publik, sehingga dapat mempengaruhi kualitas pelayanan publik secara keseluruhan."
+    },
+    {
+        "query_id": 70.0,
+        "query": "Seberapa penting kepuasan pengguna sebagai tolok ukur keberhasilan layanan digital pemerintah?",
+        "query_type": "Evaluatif",
+        "expected_output": "Keberhasilan layanan digital diukur dari manfaat nyata yang dirasakan masyarakat.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nKepuasan pengguna merupakan tolok ukur yang sangat penting dalam menentukan keberhasilan layanan digital pemerintah. Pengukuran kepuasan pengguna dapat dilakukan melalui survei, umpan balik, dan analisis data penggunaan layanan. Dengan mengetahui tingkat kepuasan pengguna, pemerintah dapat mengevaluasi kualitas layanan dan melakukan perbaikan untuk meningkatkan kualitas layanan."
+    },
+    {
+        "query_id": 71.0,
+        "query": "Jelaskan secara umum konsep 'dasbor eksekutif untuk pimpinan'.",
+        "query_type": "Faktual",
+        "expected_output": "Tampilan ringkas indikator kinerja untuk pengambilan keputusan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Dasbor eksekutif untuk pimpinan adalah alat visual yang menyajikan informasi kinerja organisasi secara ringkas dan mudah dipahami. Dasbor ini dirancang untuk membantu pimpinan dalam membuat keputusan strategis dan memantau kinerja organisasi secara real-time."
+    },
+    {
+        "query_id": 72.0,
+        "query": "Jelaskan secara umum konsep 'integrasi aplikasi antarinstansi'.",
+        "query_type": "Faktual",
+        "expected_output": "Menghubungkan aplikasi agar dapat berbagi data dan fungsi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Integrasi aplikasi antarinstansi adalah suatu konsep yang mengacu pada penggabungan atau pengintegrasian sistem aplikasi yang berbeda dari berbagai instansi atau lembaga pemerintahan untuk mencapai tujuan bersama dan meningkatkan efisiensi layanan publik."
+    },
+    {
+        "query_id": 73.0,
+        "query": "Jelaskan secara umum konsep 'kompetensi teknis ASN bidang digital'.",
+        "query_type": "Faktual",
+        "expected_output": "Kemampuan teknis digital yang wajib dimiliki ASN sesuai jabatan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Kompetensi teknis ASN (Aparatur Sipil Negara) bidang digital adalah kemampuan dan pengetahuan yang dimiliki oleh ASN dalam menggunakan teknologi digital untuk mendukung pelaksanaan tugas dan fungsi pemerintahan. Kompetensi ini mencakup kemampuan dalam menggunakan perangkat lunak, perangkat keras, dan teknologi informasi lainnya untuk meningkatkan efisiensi, efektifitas, dan kualitas layanan publik.\n\nKompetensi teknis ASN bidang digital dapat mencakup beberapa aspek, seperti:\n\n1. Kemampuan menggunakan perangkat lunak dan aplikasi digital, seperti Microsoft Office, Google Suite, dan lain-lain.\n2. Kemampuan menggunakan perangkat keras, seperti komputer, laptop, dan perangkat mobile.\n3. Kemampuan dalam menggunakan teknologi informasi, seperti jaringan komputer, internet, dan lain-lain.\n4. Kemampuan dalam menggunakan sistem informasi dan aplikasi pemerintahan, seperti sistem informasi kepegawaian, sistem informasi keuangan, dan lain-lain.\n5. Kemampuan dalam menggunakan teknologi digital untuk meningkatkan layanan publik, seperti e-government, e-procurement, dan lain-lain.\n\nDalam konteks SPBE (Sistem Pemerintahan Berbasis Elektronik), kompetensi teknis ASN bidang digital sangat penting untuk mendukung pelaksanaan tugas dan fungsi pemerintahan yang efektif dan efisien. Dengan memiliki kompetensi teknis yang memadai, ASN dapat menggunakan teknologi digital untuk meningkatkan kualitas layanan publik, meningkatkan efisiensi birokrasi, dan meningkatkan transparansi dan akuntabilitas pemerintahan."
+    },
+    {
+        "query_id": 74.0,
+        "query": "Jelaskan secara umum konsep 'forum konsultasi publik'.",
+        "query_type": "Faktual",
+        "expected_output": "Ruang temu pengguna dan penyedia layanan untuk masukan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Forum konsultasi publik adalah suatu forum yang digunakan untuk memfasilitasi diskusi dan pertukaran informasi antara pemerintah dan masyarakat dalam rangka pengambilan keputusan yang transparan dan partisipatif."
+    },
+    {
+        "query_id": 75.0,
+        "query": "Jelaskan secara umum konsep 'manajemen insiden siber'.",
+        "query_type": "Faktual",
+        "expected_output": "Proses mendeteksi, merespons, dan memulihkan dari insiden siber.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Manajemen insiden siber adalah suatu proses yang sistematis untuk mengidentifikasi, mencegah, mendeteksi, merespons, dan memulihkan insiden siber yang dapat membahayakan keamanan informasi dan sistem teknologi informasi."
+    },
+    {
+        "query_id": 76.0,
+        "query": "Sejauh mana efektivitas manajemen perubahan dalam mendukung keberhasilan transformasi digital instansi?",
+        "query_type": "Evaluatif",
+        "expected_output": "Manajemen perubahan menentukan keberhasilan adopsi sistem digital oleh organisasi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Manajemen perubahan yang efektif dapat mendukung keberhasilan transformasi digital instansi dengan cara:\n\n1. Mengidentifikasi dan mengelola risiko perubahan\n2. Mengembangkan strategi perubahan yang efektif\n3. Mengkomunikasikan perubahan kepada seluruh stakeholder\n4. Mengelola resistensi terhadap perubahan\n5. Mengukur dan mengevaluasi keberhasilan perubahan"
+    },
+    {
+        "query_id": 77.0,
+        "query": "Apa perbedaan antara interoperabilitas data dan integrasi aplikasi dalam mewujudkan keterpaduan layanan digital pemerintah?",
+        "query_type": "Analisis",
+        "expected_output": "Interoperabilitas data berfokus pada pertukaran data, sedangkan integrasi aplikasi berfokus pada keterhubungan antar aplikasi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nInteroperabilitas data dan integrasi aplikasi merupakan dua konsep yang saling melengkapi dalam mewujudkan keterpaduan layanan digital pemerintah. Perbedaan antara keduanya adalah sebagai berikut:\n\n1.  **Interoperabilitas data**: Interoperabilitas data adalah kemampuan sistem atau aplikasi untuk berbagi, mengakses, dan menggunakan data yang dihasilkan oleh sistem atau aplikasi lain. Dalam konteks layanan digital pemerintah, interoperabilitas data memungkinkan berbagai instansi pemerintah untuk berbagi data dan informasi secara efektif, sehingga memudahkan proses pengambilan keputusan dan penyampaian layanan kepada masyarakat.\n2.  **Integrasi aplikasi**: Integrasi aplikasi adalah proses menghubungkan dua atau lebih aplikasi yang berbeda untuk berbagi data, fungsionalitas, atau layanan. Dalam konteks layanan digital pemerintah, integrasi aplikasi memungkinkan berbagai aplikasi yang digunakan oleh instansi pemerintah untuk berkomunikasi dan berbagi data secara efektif, sehingga memudahkan proses penyampaian layanan kepada masyarakat.\n\nDalam mewujudkan keterpaduan layanan digital pemerintah, interoperabilitas data dan integrasi aplikasi memiliki peran yang sangat penting. Dengan demikian, pemerintah dapat menyediakan layanan yang lebih efektif, efisien, dan responsif terhadap kebutuhan masyarakat."
+    },
+    {
+        "query_id": 78.0,
+        "query": "Jelaskan secara umum konsep 'indikator kinerja utama (IKU)'.",
+        "query_type": "Faktual",
+        "expected_output": "Ukuran keberhasilan pencapaian sasaran prioritas.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "IKU adalah ukuran yang digunakan untuk mengevaluasi kinerja suatu organisasi atau program. IKU biasanya terdiri dari beberapa indikator yang terkait dengan tujuan dan sasaran organisasi, seperti tingkat kepuasan pelanggan, produktivitas, efisiensi biaya, dan lain-lain."
+    },
+    {
+        "query_id": 79.0,
+        "query": "Jelaskan secara umum konsep 'penilaian tingkat kematangan'.",
+        "query_type": "Faktual",
+        "expected_output": "Penilaian sejauh mana praktik organisasi telah matang/terlembaga.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Penilaian tingkat kematangan (maturity assessment) adalah proses evaluasi terhadap tingkat kematangan suatu organisasi, sistem, atau proses dalam mencapai tujuan atau sasaran yang telah ditetapkan. Penilaian ini bertujuan untuk mengetahui seberapa jauh organisasi atau sistem telah berkembang dan berapa lama waktu yang dibutuhkan untuk mencapai tingkat kematangan yang diinginkan."
+    },
+    {
+        "query_id": 80.0,
+        "query": "Jelaskan secara umum konsep 'transformasi tata kelola pelayanan publik'.",
+        "query_type": "Faktual",
+        "expected_output": "Perubahan menyeluruh tata kelola agar layanan lebih baik.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Transformasi tata kelola pelayanan publik adalah proses perubahan yang dilakukan oleh pemerintah untuk meningkatkan kualitas pelayanan publik dengan memanfaatkan teknologi informasi dan komunikasi (TIK) serta mengadopsi prinsip-prinsip tata kelola yang baik."
+    },
+    {
+        "query_id": 81.0,
+        "query": "Jelaskan secara umum konsep 'ekosistem pusat data nasional'.",
+        "query_type": "Faktual",
+        "expected_output": "Kumpulan fasilitas pusat data terkonsolidasi tingkat nasional.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Ekosistem Pusat Data Nasional (PDN) adalah suatu konsep yang mengacu pada sistem yang terintegrasi dan terstruktur untuk mengelola, menyimpan, dan menganalisis data nasional dalam skala besar. Ekosistem ini dirancang untuk mendukung pengambilan keputusan yang efektif dan efisien dalam berbagai sektor, seperti pemerintahan, bisnis, dan masyarakat sipil.\n\nDalam ekosistem PDN, terdapat beberapa komponen utama, yaitu:\n\n1. **Pusat Data**: Fasilitas fisik atau virtual yang digunakan untuk menyimpan dan mengelola data dalam skala besar.\n2. **Sistem Manajemen Data**: Sistem yang digunakan untuk mengelola, memproses, dan menganalisis data, seperti sistem manajemen basis data, sistem analisis data, dan lain-lain.\n3. **Infrastruktur**: Jaringan, server, penyimpanan, dan perangkat keras lainnya yang digunakan untuk mendukung operasional PDN.\n4. **Aplikasi dan Layanan**: Aplikasi dan layanan yang digunakan untuk mengakses, menganalisis, dan memvisualisasikan data, seperti dashboard, laporan, dan lain-lain.\n5. **Keamanan dan Privasi**: Sistem keamanan dan privasi yang digunakan untuk melindungi data dari akses tidak sah, kehilangan, atau kerusakan.\n6. **Governing dan Regulasi**: Kerangka governing dan regulasi yang digunakan untuk mengatur penggunaan data, seperti kebijakan data, standar data, dan lain-lain.\n\nTujuan utama ekosistem PDN adalah untuk:\n\n1. Meningkatkan kualitas dan kuantitas data nasional.\n2. Meningkatkan efisiensi dan efektifitas pengambilan keputusan.\n3. Meningkatkan transparansi dan akuntabilitas pemerintahan dan bisnis.\n4. Meningkatkan kemampuan analisis dan visualisasi data.\n\nDalam implementasinya, ekosistem PDN dapat diintegrasikan dengan berbagai teknologi, seperti cloud computing, big data, artificial intelligence, dan internet of things (IoT), untuk meningkatkan kemampuan pengelolaan dan analisis data."
+    },
+    {
+        "query_id": 82.0,
+        "query": "Mengapa strategi penilaian perlu diintegrasikan ke dalam layanan digital?",
+        "query_type": "Evaluatif",
+        "expected_output": "Agar penilaian berjalan secara real-time dan umpan balik perbaikan dapat diperoleh lebih cepat.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nStrategi penilaian perlu diintegrasikan ke dalam layanan digital karena beberapa alasan:\n\n1.  **Meningkatkan Kualitas Layanan**: Dengan mengintegrasikan strategi penilaian, Anda dapat memantau kinerja layanan digital dan mengidentifikasi area yang perlu diperbaiki. Hal ini memungkinkan Anda untuk meningkatkan kualitas layanan dan memenuhi kebutuhan pengguna dengan lebih baik.\n2.  **Mengukur Efektivitas**: Penilaian membantu Anda mengukur efektivitas layanan digital dalam mencapai tujuan yang diinginkan. Dengan demikian, Anda dapat mengevaluasi apakah layanan tersebut berhasil dalam meningkatkan pengalaman pengguna, meningkatkan konversi, atau mencapai tujuan lainnya.\n3.  **Mengidentifikasi Kesalahan**: Strategi penilaian dapat membantu Anda mengidentifikasi kesalahan atau masalah dalam layanan digital. Dengan demikian, Anda dapat segera mengambil tindakan untuk memperbaiki kesalahan tersebut dan meningkatkan kualitas layanan.\n4.  **Meningkatkan Pengalaman Pengguna**: Dengan mengintegrasikan strategi penilaian, Anda dapat memahami kebutuhan dan preferensi pengguna dengan lebih baik. Hal ini memungkinkan Anda untuk meningkatkan pengalaman pengguna dan membuat layanan digital lebih ramah pengguna.\n5.  **Mengoptimalkan Sumber Daya**: Penilaian membantu Anda mengoptimalkan sumber daya yang digunakan dalam layanan digital. Dengan demikian, Anda dapat mengalokasikan sumber daya dengan lebih efektif dan meningkatkan efisiensi layanan."
+    },
+    {
+        "query_id": 83.0,
+        "query": "Mengapa kanal umpan balik dua arah dapat meningkatkan kualitas layanan digital pemerintah dibandingkan komunikasi satu arah?",
+        "query_type": "Analisis",
+        "expected_output": "Kanal umpan balik dua arah memungkinkan pengguna menyampaikan masukan dan keluhan sehingga layanan digital pemerintah",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Kanal umpan balik dua arah dapat meningkatkan kualitas layanan digital pemerintah karena memungkinkan interaksi yang lebih efektif antara pemerintah dan warga negara. Dengan komunikasi dua arah, warga negara dapat memberikan umpan balik langsung tentang layanan yang diterima, sehingga pemerintah dapat memahami kebutuhan dan kekhawatiran mereka dengan lebih baik. Ini memungkinkan pemerintah untuk melakukan penyesuaian dan perbaikan yang lebih tepat, meningkatkan kualitas layanan secara keseluruhan."
+    },
+    {
+        "query_id": 84.0,
+        "query": "Jelaskan secara umum konsep 'perekaman aktivitas pemrosesan data pribadi'.",
+        "query_type": "Faktual",
+        "expected_output": "Pencatatan kegiatan pemrosesan data pribadi untuk akuntabilitas.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nPerekaman aktivitas pemrosesan data pribadi adalah suatu proses pencatatan dan pengawasan terhadap semua aktivitas yang terkait dengan pengumpulan, penyimpanan, penggunaan, pengolahan, dan penghapusan data pribadi."
+    },
+    {
+        "query_id": 85.0,
+        "query": "Jelaskan secara umum konsep 'penilaian dampak pelindungan data (DPIA)'.",
+        "query_type": "Faktual",
+        "expected_output": "Analisis risiko pemrosesan data pribadi sebelum dijalankan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Penilaian dampak pelindungan data (DPIA) adalah proses evaluasi sistematis yang dilakukan untuk memahami dampak potensial dari pengolahan data pribadi terhadap hak dan kebebasan individu. Tujuan utama DPIA adalah untuk mengidentifikasi dan mengurangi risiko yang terkait dengan pengolahan data pribadi, terutama dalam konteks perlindungan data pribadi."
+    },
+    {
+        "query_id": 86.0,
+        "query": "Apa hubungan antara literasi digital ASN dengan pencapaian tingkat kematangan pada indikator Sumber Daya Manusia Pemdi?",
+        "query_type": "Analisis",
+        "expected_output": "Literasi digital yang rendah membatasi kemampuan ASN dalam mengoperasikan dan mengembangkan sistem digital secara optimal",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Literasi digital ASN (Aparatur Sipil Negara) memiliki hubungan yang signifikan dengan pencapaian tingkat kematangan pada indikator Sumber Daya Manusia Pemerintahan Daerah (Pemda). Berikut adalah beberapa alasan yang menjelaskan hubungan tersebut:\n\n1. **Peningkatan efisiensi dan efektifitas**: Literasi digital ASN memungkinkan mereka untuk menggunakan teknologi digital dengan lebih efektif dan efisien dalam menjalankan tugas dan fungsi pemerintahan. Hal ini dapat meningkatkan kualitas pelayanan publik dan mempercepat proses pengambilan keputusan.\n2. **Pengembangan kompetensi**: Literasi digital ASN dapat membantu meningkatkan kompetensi mereka dalam menggunakan teknologi digital, sehingga mereka dapat lebih siap menghadapi tantangan dan perubahan dalam lingkungan kerja.\n3. **Peningkatan kualitas data dan informasi**: Literasi digital ASN memungkinkan mereka untuk mengumpulkan, menganalisis, dan menginterpretasikan data dengan lebih baik, sehingga dapat meningkatkan kualitas keputusan yang diambil.\n4. **Peningkatan transparansi dan akuntabilitas**: Literasi digital ASN dapat membantu meningkatkan transparansi dan akuntabilitas dalam pemerintahan, karena mereka dapat menggunakan teknologi digital untuk memantau dan melaporkan kinerja pemerintahan.\n5. **Peningkatan kualitas pelayanan publik**: Literasi digital ASN dapat membantu meningkatkan kualitas pelayanan publik, karena mereka dapat menggunakan teknologi digital untuk meningkatkan aksesibilitas, kecepatan, dan kualitas pelayanan.\n\nDalam konteks indikator Sumber Daya Manusia Pemda, literasi digital ASN dapat membantu meningkatkan tingkat kematangan pada beberapa indikator, seperti:\n\n* **Kompetensi**: Literasi digital ASN dapat membantu meningkatkan kompetensi mereka dalam menggunakan teknologi digital.\n* **Kualitas pelayanan publik**: Literasi digital ASN dapat membantu meningkatkan kualitas pelayanan publik.\n* **Transparansi dan akuntabilitas**: Literasi digital ASN dapat membantu meningkatkan transparansi dan akuntabilitas dalam pemerintahan.\n* **Pengembangan SDM**: Literasi digital ASN dapat membantu meningkatkan pengembangan SDM dalam pemerintahan.\n\nDalam keseluruhan, literasi digital ASN memiliki peran penting dalam meningkatkan tingkat kematangan pada indikator Sumber Daya Manusia Pemda, karena dapat membantu meningkatkan efisiensi, efektifitas, kompetensi, kualitas pelayanan publik, transparansi, dan akuntabilitas dalam pemerintahan."
+    },
+    {
+        "query_id": 87.0,
+        "query": "Sebutkan tiga komponen utama yang umumnya menjadi fokus dalam transformasi Pemerintah Digital.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Manusia (People / Culture), Proses (Process / Governance), Teknologi (Technology) yang harus berjalan selaras.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nTiga komponen utama yang umumnya menjadi fokus dalam transformasi Pemerintah Digital adalah:\n\n1.  **Governance (Tata Kelola)**: Fokus pada perubahan kebijakan, peraturan, dan struktur organisasi untuk mendukung transformasi digital. Ini termasuk pengembangan kebijakan dan regulasi yang mendukung inovasi digital, serta perubahan budaya dan struktur organisasi untuk meningkatkan efisiensi dan efektivitas.\n2.  **People and Process (Sumber Daya Manusia dan Proses)**: Fokus pada pengembangan kemampuan dan keterampilan sumber daya manusia, serta perubahan proses bisnis untuk mendukung transformasi digital. Ini termasuk pelatihan dan pengembangan keterampilan digital bagi pegawai, serta perubahan proses bisnis untuk meningkatkan efisiensi dan efektivitas.\n3.  **Technology (Teknologi)**: Fokus pada pengembangan dan penerapan teknologi digital untuk mendukung transformasi digital. Ini termasuk pengembangan infrastruktur digital, penggunaan teknologi informasi dan komunikasi (TIK), serta penerapan teknologi baru seperti kecerdasan buatan (AI), blockchain, dan Internet of Things (IoT)."
+    },
+    {
+        "query_id": 88.0,
+        "query": "Bagaimana Tim Asesor Eksternal memverifikasi hasil Penilaian Mandiri Pemdi?",
+        "query_type": "Faktual",
+        "expected_output": "Tim Asesor Eksternal menilai dokumen, melakukan interviu, dan visitasi untuk memverifikasi hasil Penilaian Mandiri.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nTim Asesor Eksternal memverifikasi hasil Penilaian Mandiri Pemda dengan cara membandingkan hasil Penilaian Mandiri Pemda dengan hasil penilaian lapangan yang dilakukan oleh Tim Asesor Eksternal."
+    },
+    {
+        "query_id": 89.0,
+        "query": "Apa indikator untuk menilai kompetensi digital ASN dalam layanan digital pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Kompetensi digital ASN meliputi literasi digital, pemanfaatan sistem, pengelolaan data, keamanan digital, kolaborasi digital, etika, dan adaptasi teknologi.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Indikator untuk menilai kompetensi digital ASN dalam layanan digital pemerintah adalah sebagai berikut:\n\n1. Kemampuan menggunakan teknologi informasi dan komunikasi (TIK) untuk mendukung layanan publik.\n2. Kemampuan mengelola data dan informasi secara digital.\n3. Kemampuan menggunakan platform digital untuk berinteraksi dengan masyarakat.\n4. Kemampuan mengembangkan dan mengelola layanan digital yang efektif dan efisien.\n5. Kemampuan memahami dan menerapkan prinsip-prinsip keamanan dan privasi data dalam layanan digital.\n6. Kemampuan mengembangkan kemampuan digital secara berkelanjutan.\n7. Kemampuan berkolaborasi dan berkomunikasi secara efektif dalam lingkungan digital.\n8. Kemampuan memahami dan menerapkan etika digital dalam layanan publik."
+    },
+    {
+        "query_id": 90.0,
+        "query": "Bagaimana forum koordinasi Pemdi membantu kolaborasi antar unit pemerintah dan pihak eksternal?",
+        "query_type": "Faktual",
+        "expected_output": "Forum koordinasi digunakan untuk pertukaran informasi, peningkatan kapasitas, dan kolaborasi antar instansi pemerintah dan pihak eksternal.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Forum koordinasi Pemdi membantu kolaborasi antar unit pemerintah dan pihak eksternal dengan menyediakan platform untuk berbagi informasi, mengidentifikasi kebutuhan, dan mengembangkan strategi bersama."
+    },
+    {
+        "query_id": 91.0,
+        "query": "Bagaimana interoperabilitas data mempengaruhi kualitas indeks Pemdi nasional?",
+        "query_type": "Faktual",
+        "expected_output": "Interoperabilitas data antar sistem memungkinkan pengukuran indeks Pemdi yang menyeluruh dan konsisten.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nInteroperabilitas data mempengaruhi kualitas indeks Pemdi nasional dengan cara:\n\n1.  Meningkatkan akurasi data: Interoperabilitas data memungkinkan integrasi data dari berbagai sumber, sehingga meningkatkan akurasi dan konsistensi data yang digunakan dalam perhitungan indeks Pemdi nasional.\n2.  Meningkatkan kecepatan pengolahan data: Dengan interoperabilitas data, pengolahan data dapat dilakukan lebih cepat dan efisien, sehingga indeks Pemdi nasional dapat diperbarui lebih sering dan lebih akurat.\n3.  Meningkatkan kemampuan analisis data: Interoperabilitas data memungkinkan analisis data yang lebih mendalam dan komprehensif, sehingga dapat memberikan wawasan yang lebih baik tentang kinerja pemerintahan daerah.\n4.  Meningkatkan transparansi dan akuntabilitas: Dengan interoperabilitas data, data yang digunakan dalam perhitungan indeks Pemdi nasional dapat diakses dan dilihat oleh publik, sehingga meningkatkan transparansi dan akuntabilitas pemerintahan daerah."
+    },
+    {
+        "query_id": 92.0,
+        "query": "Apa metode yang digunakan untuk mengevaluasi pengelolaan data dalam Pemdi?",
+        "query_type": "Faktual",
+        "expected_output": "Evaluasi pengelolaan data dilakukan melalui kuesioner untuk menilai tata kelola data, metadata, dan interoperabilitas.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nMetode yang digunakan untuk mengevaluasi pengelolaan data dalam Pemerintahan Daerah (Pemda) adalah dengan menggunakan kerangka kerja Data Governance (Tata Kelola Data) yang mencakup beberapa aspek, seperti:\n\n1.  Kualitas data: Mengevaluasi akurasi, kelengkapan, dan konsistensi data.\n2.  Keamanan data: Mengevaluasi langkah-langkah keamanan yang diambil untuk melindungi data dari akses tidak sah, kehilangan, atau kerusakan.\n3.  Ketersediaan data: Mengevaluasi ketersediaan data untuk digunakan oleh pihak yang berwenang.\n4.  Penggunaan data: Mengevaluasi bagaimana data digunakan untuk mendukung pengambilan keputusan dan proses bisnis.\n5.  Pengelolaan data: Mengevaluasi proses pengelolaan data, termasuk pengumpulan, penyimpanan, dan pemeliharaan data.\n\nDengan menggunakan kerangka kerja ini, Pemda dapat mengevaluasi pengelolaan data dan mengidentifikasi area yang perlu diperbaiki untuk meningkatkan kualitas dan keamanan data."
+    },
+    {
+        "query_id": 93.0,
+        "query": "Bagaimana kriteria penilaian keamanan siber Pemdi diterapkan pada instansi pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Keamanan Pemdi dinilai melalui audit keamanan, penerapan kriptografi, dan kapabilitas penanganan insiden siber.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nKriteria penilaian keamanan siber Pemdi diterapkan pada instansi pemerintah melalui beberapa tahapan, yaitu:\n\n1.  Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n2.  Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n3.  Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n4.  Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n5.  Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n6.  Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n7.  Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n8.  Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n9.  Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n10. Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n11. Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n12. Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n13. Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n14. Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n15. Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n16. Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n17. Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n18. Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n19. Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah.\n20. Pengisian kuesioner penilaian keamanan siber Pemdi oleh instansi pemerintah."
+    },
+    {
+        "query_id": 94.0,
+        "query": "Bagaimana infrastruktur Pemdi mendukung aplikasi prioritas dan interoperabilitas?",
+        "query_type": "Faktual",
+        "expected_output": "Infrastruktur Pemdi mendukung aplikasi prioritas melalui perangkat keras, perangkat lunak, dan sistem yang interoperabel.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Infrastruktur Pemerintah Daerah (Pemda) mendukung aplikasi prioritas dan interoperabilitas melalui beberapa cara:\n\n1.  **Standarisasi**: Pemda menerapkan standar teknologi informasi dan komunikasi (TIK) yang sama untuk semua aplikasi, sehingga memudahkan integrasi dan pertukaran data antar aplikasi.\n2.  **Arsitektur Enterprise**: Pemda memiliki arsitektur enterprise yang terintegrasi, sehingga memungkinkan aplikasi-aplikasi yang berbeda untuk berkomunikasi dan berbagi data dengan efektif.\n3.  **Layanan Berbasis Data**: Pemda menyediakan layanan berbasis data yang memungkinkan aplikasi-aplikasi untuk mengakses dan memanfaatkan data yang sama, sehingga meningkatkan efisiensi dan mengurangi redundansi.\n4.  **Sistem Manajemen Data**: Pemda memiliki sistem manajemen data yang efektif, sehingga memungkinkan aplikasi-aplikasi untuk mengakses dan memanfaatkan data yang akurat dan terkini.\n5.  **Koneksi Jaringan**: Pemda memiliki koneksi jaringan yang stabil dan aman, sehingga memungkinkan aplikasi-aplikasi untuk berkomunikasi dan berbagi data dengan efektif.\n6.  **Keamanan**: Pemda memiliki sistem keamanan yang efektif, sehingga memungkinkan aplikasi-aplikasi untuk beroperasi dengan aman dan terlindungi dari ancaman keamanan.\n7.  **Pengembangan Aplikasi**: Pemda memiliki tim pengembangan aplikasi yang efektif, sehingga memungkinkan aplikasi-aplikasi untuk dikembangkan dan diperbarui dengan cepat dan efektif.\n8.  **Pengujian dan Pemeliharaan**: Pemda memiliki proses pengujian dan pemeliharaan yang efektif, sehingga memungkinkan aplikasi-aplikasi untuk beroperasi dengan stabil dan efektif."
+    },
+    {
+        "query_id": 95.0,
+        "query": "Bagaimana evaluasi kepuasan pengguna layanan digital dilakukan di instansi pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Kepuasan pengguna diukur melalui fasilitas dukungan dan pengelolaan umpan balik untuk meningkatkan layanan digital.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Evaluasi kepuasan pengguna layanan digital di instansi pemerintah dapat dilakukan dengan beberapa cara, seperti:\n\n1. Survei kepuasan pengguna: Instansi pemerintah dapat melakukan survei secara online atau offline untuk mengetahui tingkat kepuasan pengguna terhadap layanan digital yang disediakan.\n2. Analisis data penggunaan: Instansi pemerintah dapat menganalisis data penggunaan layanan digital, seperti jumlah pengguna, waktu akses, dan jenis layanan yang digunakan, untuk mengetahui pola penggunaan dan kebutuhan pengguna.\n3. Umpan balik pengguna: Instansi pemerintah dapat meminta umpan balik dari pengguna melalui fitur umpan balik pada aplikasi atau situs web, atau melalui media sosial.\n4. Pengujian kegunaan: Instansi pemerintah dapat melakukan pengujian kegunaan layanan digital dengan mengundang pengguna untuk melakukan tes kegunaan dan memberikan umpan balik.\n5. Indeks kepuasan pengguna: Instansi pemerintah dapat menggunakan indeks kepuasan pengguna, seperti Net Promoter Score (NPS), untuk mengukur tingkat kepuasan pengguna terhadap layanan digital.\n\nDengan melakukan evaluasi kepuasan pengguna, instansi pemerintah dapat mengetahui kebutuhan dan keinginan pengguna, serta meningkatkan kualitas layanan digital yang disediakan."
+    },
+    {
+        "query_id": 96.0,
+        "query": "Apa langkah evaluasi pemanfaatan data geospasial untuk mendukung perencanaan pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Evaluasi data geospasial memastikan data akurat, terintegrasi, dan mendukung layanan digital pemerintah.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Langkah evaluasi pemanfaatan data geospasial untuk mendukung perencanaan pemerintah adalah sebagai berikut:\n\n1.  Identifikasi tujuan dan sasaran: Pastikan tujuan dan sasaran evaluasi jelas dan spesifik, serta selaras dengan kebijakan dan strategi pemerintah.\n2.  Pengumpulan data: Kumpulkan data geospasial yang relevan dan akurat, termasuk data spasial, atribut, dan metadata.\n3.  Analisis data: Lakukan analisis data geospasial menggunakan metode dan teknik yang sesuai, seperti analisis spasial, statistik, dan visualisasi data.\n4.  Evaluasi kualitas data: Evaluasi kualitas data geospasial berdasarkan aspek-aspek seperti ketepatan, kelengkapan, dan konsistensi.\n5.  Evaluasi pemanfaatan data: Evaluasi seberapa efektif data geospasial digunakan dalam perencanaan pemerintah, termasuk seberapa baik data digunakan untuk mendukung keputusan dan kebijakan.\n6.  Identifikasi kesenjangan dan peluang: Identifikasi kesenjangan dan peluang dalam pemanfaatan data geospasial untuk perencanaan pemerintah, serta rekomendasi untuk perbaikan.\n7.  Pelaporan dan komunikasi: Buat laporan evaluasi yang jelas dan efektif, serta komunikasikan hasil evaluasi kepada stakeholders yang relevan."
+    },
+    {
+        "query_id": 97.0,
+        "query": "Bagaimana tata kelola statistik sektoral digunakan untuk mendukung laporan nasional?",
+        "query_type": "Faktual",
+        "expected_output": "Indikator Pembangunan Statistik memastikan unit kerja menghasilkan data akurat dan terintegrasi untuk laporan nasional.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tata kelola statistik sektoral digunakan untuk mendukung laporan nasional dengan cara memastikan kualitas, konsistensi, dan akurasi data statistik yang digunakan dalam laporan nasional. Tata kelola statistik sektoral melibatkan koordinasi dan integrasi data statistik dari berbagai sektor dan lembaga untuk memastikan bahwa data yang digunakan dalam laporan nasional adalah lengkap, akurat, dan konsisten."
+    },
+    {
+        "query_id": 98.0,
+        "query": "Apa tujuan prosedur reviu Arsitektur Pemdi?",
+        "query_type": "Faktual",
+        "expected_output": "Reviu Arsitektur Pemdi dilakukan untuk memastikan transformasi digital berjalan terpadu sesuai pedoman.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "\n\nTujuan dari prosedur reviu Arsitektur Pemerintahan Daerah Elektronik (Pemda) adalah untuk memastikan bahwa arsitektur yang dirancang dapat mendukung pencapaian tujuan dan sasaran strategis pemerintah daerah secara efektif dan efisien."
+    },
+    {
+        "query_id": 99.0,
+        "query": "Sebutkan tiga metode yang umum digunakan untuk mengelola ketidakpastian dalam perencanaan Pemerintah Digital.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Analisis skenario, simulasi Monte Carlo, dan forecasting.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tiga metode yang umum digunakan untuk mengelola ketidakpastian dalam perencanaan Pemerintah Digital adalah:\n\n1.  **Analisis SWOT (Strengths, Weaknesses, Opportunities, Threats)**: Metode ini membantu mengidentifikasi faktor-faktor internal dan eksternal yang dapat mempengaruhi perencanaan Pemerintah Digital. Dengan menganalisis kekuatan, kelemahan, peluang, dan ancaman, pemerintah dapat mengembangkan strategi untuk mengatasi ketidakpastian dan mencapai tujuan.\n2.  **Analisis Senario (Scenario Planning)**: Metode ini melibatkan pengembangan skenario yang berbeda untuk mengantisipasi kemungkinan hasil dari perencanaan Pemerintah Digital. Dengan menganalisis skenario yang berbeda, pemerintah dapat mengidentifikasi kemungkinan risiko dan peluang, serta mengembangkan strategi untuk mengatasi ketidakpastian.\n3.  **Pengelolaan Risiko (Risk Management)**: Metode ini membantu mengidentifikasi, menganalisis, dan mengelola risiko yang terkait dengan perencanaan Pemerintah Digital. Dengan mengidentifikasi risiko yang potensial, pemerintah dapat mengembangkan strategi untuk mengurangi atau menghilangkan risiko tersebut, serta mengembangkan rencana kontinjensi untuk mengatasi ketidakpastian."
+    },
+    {
+        "query_id": 100.0,
+        "query": "Bagaimana mekanisme tindak lanjut hasil reviu Pemdi dijalankan untuk meningkatkan layanan digital?",
+        "query_type": "Faktual",
+        "expected_output": "Hasil reviu ditindaklanjuti melalui penerapan perbaikan dan peningkatan layanan digital sesuai pedoman.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Mekanisme tindak lanjut hasil reviu Pemdi dijalankan untuk meningkatkan layanan digital melalui beberapa tahap:\n\n1.  Identifikasi: Identifikasi hasil reviu Pemdi yang menunjukkan kekurangan atau kesempatan perbaikan dalam layanan digital.\n2.  Analisis: Analisis hasil reviu Pemdi untuk memahami penyebab kekurangan atau kesempatan perbaikan.\n3.  Perencanaan: Buat rencana tindak lanjut yang jelas dan terukur untuk meningkatkan layanan digital.\n4.  Pelaksanaan: Pelaksanaan rencana tindak lanjut yang telah dibuat, termasuk perbaikan proses, peningkatan infrastruktur, dan pelatihan staf.\n5.  Pemantauan: Pemantauan kemajuan pelaksanaan rencana tindak lanjut dan evaluasi hasilnya.\n6.  Evaluasi: Evaluasi hasil tindak lanjut untuk memastikan bahwa layanan digital telah meningkat dan memenuhi standar yang diinginkan."
+    }
+]

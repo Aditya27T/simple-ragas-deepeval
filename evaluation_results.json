@@ -1,0 +1,137 @@
+[
+    {
+        "query_id": 1.0,
+        "query": "Apa kepanjangan dari SPBE dalam tata kelola pemerintahan Indonesia?",
+        "query_type": "Faktual",
+        "expected_output": "Sistem Pemerintahan Berbasis Elektronik.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Kepanjangan dari SPBE adalah **Sistem Pemerintahan Berbasis Elektronik**.",
+        "evaluations": {
+            "ragas_answer_relevancy": NaN,
+            "ragas_faithfulness": NaN,
+            "ragas_answer_correctness": NaN,
+            "deepeval_hallucination": 0.0,
+            "deepeval_geval_correctness": 0.0
+        }
+    },
+    {
+        "query_id": 2.0,
+        "query": "Secara umum, apa yang dimaksud dengan transformasi digital pemerintah?",
+        "query_type": "Faktual",
+        "expected_output": "Pemanfaatan data dan teknologi digital untuk meningkatkan kualitas layanan dan tata kelola pemerintahan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "**Transformasi digital pemerintah** adalah proses perubahan fundamental dalam tata kelola pemerintahan dengan memanfaatkan teknologi informasi dan komunikasi (TIK) untuk meningkatkan efisiensi, efektivitas, dan kualitas pelayanan publik.\n\nSecara umum, transformasi ini bukan sekadar memindahkan layanan manual ke aplikasi (digitasi), melainkan mencakup tiga aspek utama:\n\n1.  **Perubahan Proses Bisnis:** Menyederhanakan dan mengoptimalkan prosedur kerja agar lebih ramping dan cepat.\n2.  **Perubahan Budaya Kerja:** Menggeser pola pikir aparatur sipil negara (ASN) menjadi lebih adaptif, kolaboratif, dan berorientasi pada pengguna.\n3.  **Integrasi Data dan Layanan:** Menghilangkan \"sekat-sekat\" antarinstansi (silo) melalui penerapan Sistem Pemerintahan Berbasis Elektronik (SPBE) untuk menciptakan layanan publik yang terpadu dan terintegrasi.\n\n**Tujuan utamanya** adalah menciptakan pemerintahan yang lebih transparan, akuntabel, dan responsif dalam melayani masyarakat.",
+        "evaluations": {
+            "ragas_answer_relevancy": NaN,
+            "ragas_faithfulness": NaN,
+            "ragas_answer_correctness": NaN,
+            "deepeval_hallucination": 0.0,
+            "deepeval_geval_correctness": 0.0
+        }
+    },
+    {
+        "query_id": 3.0,
+        "query": "Apa tujuan utama dari kebijakan Satu Data Indonesia (SDI)?",
+        "query_type": "Faktual",
+        "expected_output": "Mewujudkan data pemerintah yang akurat, mutakhir, terpadu, dan dapat diakses sebagai dasar perencanaan dan pengambilan keputusan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tujuan utama dari kebijakan **Satu Data Indonesia (SDI)** adalah untuk mewujudkan tata kelola data pemerintah yang akurat, mutakhir, terpadu, dan dapat dipertanggungjawabkan, sehingga dapat digunakan secara bersama bagi perencanaan, pelaksanaan, evaluasi, dan pengawasan pembangunan serta peningkatan pelayanan publik.\n\nSecara spesifik, SDI bertujuan untuk:\n1. **Menghilangkan Silo Data:** Menghapus ego sektoral antar instansi pemerintah agar data tidak terfragmentasi.\n2. **Interoperabilitas Data:** Memastikan data dapat dibagipakaikan antar instansi melalui standar data dan metadata yang sama.\n3. **Meningkatkan Kualitas Data:** Menjamin data yang dihasilkan memiliki standar yang konsisten dan valid.\n4. **Mendukung Pengambilan Keputusan:** Menyediakan basis data yang akurat bagi pemerintah untuk mengambil kebijakan berbasis data (*data-driven policy*).",
+        "evaluations": {
+            "ragas_answer_relevancy": NaN,
+            "ragas_faithfulness": NaN,
+            "ragas_answer_correctness": NaN,
+            "deepeval_hallucination": 0.0,
+            "deepeval_geval_correctness": 0.0
+        }
+    },
+    {
+        "query_id": 4.0,
+        "query": "Sebutkan tiga manfaat utama penerapan Pemerintah Digital bagi masyarakat.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Akses layanan lebih cepat, peningkatan transparansi, dan kemudahan memperoleh layanan publik.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tiga manfaat utama penerapan Pemerintah Digital bagi masyarakat adalah:\n\n1. **Kemudahan Akses Layanan:** Masyarakat dapat mengakses layanan publik kapan saja dan di mana saja secara daring tanpa harus datang secara fisik ke kantor pemerintah.\n2. **Peningkatan Transparansi dan Akuntabilitas:** Proses administrasi menjadi lebih terbuka dan dapat dipantau, sehingga mengurangi risiko pungutan liar (pungli) dan korupsi.\n3. **Efisiensi Waktu dan Biaya:** Memangkas birokrasi yang berbelit-belit, sehingga pengurusan dokumen atau perizinan menjadi lebih cepat dan hemat biaya transportasi.",
+        "evaluations": {
+            "ragas_answer_relevancy": NaN,
+            "ragas_faithfulness": NaN,
+            "ragas_answer_correctness": NaN,
+            "deepeval_hallucination": 0.0,
+            "deepeval_geval_correctness": 0.0
+        }
+    },
+    {
+        "query_id": 5.0,
+        "query": "Sebutkan tiga karakteristik utama digital government.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Keterpaduan layanan, pemanfaatan data, dan orientasi pada kebutuhan pengguna.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tiga karakteristik utama *digital government* adalah:\n\n1. **Berpusat pada Pengguna (*User-Centric*):** Layanan dirancang berdasarkan kebutuhan masyarakat dan pengguna, sehingga lebih mudah diakses, inklusif, dan memberikan pengalaman pengguna yang lebih baik.\n2. **Terintegrasi dan Terpadu (*Integrated/Interoperable*):** Menghilangkan silo data antar instansi melalui interoperabilitas, sehingga data saling terhubung dan masyarakat tidak perlu menginput data yang sama berulang kali.\n3. **Berbasis Data (*Data-Driven*):** Pengambilan keputusan dan penyusunan kebijakan dilakukan berdasarkan analisis data yang akurat dan *real-time* untuk meningkatkan efektivitas serta efisiensi pelayanan publik.",
+        "evaluations": {
+            "ragas_answer_relevancy": NaN,
+            "ragas_faithfulness": NaN,
+            "ragas_answer_correctness": NaN,
+            "deepeval_hallucination": 0.0,
+            "deepeval_geval_correctness": 0.0
+        }
+    },
+    {
+        "query_id": 6.0,
+        "query": "Apa manfaat penerapan tata kelola data dalam pemerintahan digital?",
+        "query_type": "Faktual",
+        "expected_output": "Memastikan data akurat, terintegrasi, aman, dan dapat dimanfaatkan untuk mendukung layanan serta pengambilan keputusan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Penerapan tata kelola data dalam pemerintahan digital memberikan manfaat utama sebagai berikut:\n\n1.  **Kualitas Data Terjamin:** Memastikan data yang digunakan akurat, konsisten, mutakhir, dan valid, sehingga mengurangi risiko kesalahan informasi.\n2.  **Interoperabilitas Data:** Memungkinkan pertukaran data antar instansi pemerintah secara lancar (tidak ada silo data), sehingga layanan publik menjadi lebih terintegrasi.\n3.  **Pengambilan Keputusan Berbasis Data (*Data-Driven Decision Making*):** Menyediakan basis data yang handal bagi pimpinan untuk merumuskan kebijakan yang lebih tepat sasaran dan efektif.\n4.  **Keamanan dan Privasi Terjaga:** Menjamin perlindungan data pribadi masyarakat dan data negara melalui pengaturan hak akses dan standar keamanan yang jelas.\n5.  **Efisiensi Operasional:** Menghilangkan duplikasi pengumpulan data yang sama oleh instansi berbeda, sehingga menghemat waktu, biaya, dan sumber daya.\n6.  **Transparansi dan Akuntabilitas:** Meningkatkan kepercayaan publik melalui penyediaan data terbuka (*open data*) yang dapat dipertanggungjawabkan.",
+        "evaluations": {
+            "ragas_answer_relevancy": NaN,
+            "ragas_faithfulness": NaN,
+            "ragas_answer_correctness": NaN,
+            "deepeval_hallucination": 0.0,
+            "deepeval_geval_correctness": 0.0
+        }
+    },
+    {
+        "query_id": 7.0,
+        "query": "Sebutkan tiga tujuan utama keamanan siber dalam layanan pemerintah digital.",
+        "query_type": "Ekstraksi",
+        "expected_output": "Melindungi kerahasiaan data, menjaga integritas informasi, dan memastikan ketersediaan layanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Tiga tujuan utama keamanan siber dalam layanan pemerintah digital (sering disebut sebagai CIA Triad) adalah:\n\n1. **Kerahasiaan (*Confidentiality*)**: Memastikan data sensitif pemerintah dan data pribadi masyarakat hanya dapat diakses oleh pihak yang memiliki wewenang.\n2. **Integritas (*Integrity*)**: Menjamin bahwa data dan informasi tetap akurat, konsisten, dan tidak diubah oleh pihak yang tidak berwenang selama proses penyimpanan maupun pengiriman.\n3. **Ketersediaan (*Availability*)**: Memastikan layanan digital dan data dapat diakses oleh pengguna dan petugas yang berwenang kapan pun dibutuhkan tanpa gangguan.",
+        "evaluations": {
+            "ragas_answer_relevancy": NaN,
+            "ragas_faithfulness": NaN,
+            "ragas_answer_correctness": NaN,
+            "deepeval_hallucination": 0.0,
+            "deepeval_geval_correctness": 0.0
+        }
+    },
+    {
+        "query_id": 8.0,
+        "query": "Apa fungsi sebuah portal layanan publik nasional bagi masyarakat?",
+        "query_type": "Faktual",
+        "expected_output": "Mengonsolidasikan berbagai layanan pemerintah dalam satu titik akses agar mudah, cepat, dan terpadu.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Fungsi utama portal layanan publik nasional bagi masyarakat adalah sebagai **pintu tunggal (*single window*)** untuk mengakses seluruh layanan pemerintah.\n\nSecara spesifik, fungsinya meliputi:\n\n1.  **Simplifikasi Akses:** Masyarakat tidak perlu menghafal atau mengunjungi banyak situs web kementerian/lembaga/daerah yang berbeda; cukup melalui satu portal.\n2.  **Integrasi Layanan:** Menyatukan berbagai jenis layanan (administrasi, perizinan, bantuan sosial, dll.) dalam satu platform yang terintegrasi.\n3.  **Efisiensi Waktu dan Biaya:** Mengurangi birokrasi fisik dan prosedur yang berulang, sehingga proses pengurusan layanan menjadi lebih cepat dan murah.\n4.  **Transparansi dan Standarisasi:** Memberikan informasi yang jelas mengenai syarat, prosedur, waktu penyelesaian, dan biaya layanan secara terbuka.\n5.  **Kemudahan Autentikasi:** Biasanya menggunakan satu akun (*Single Sign-On*) untuk mengakses berbagai layanan berbeda tanpa harus membuat banyak akun.",
+        "evaluations": {
+            "ragas_answer_relevancy": NaN,
+            "ragas_faithfulness": NaN,
+            "ragas_answer_correctness": NaN,
+            "deepeval_hallucination": 0.0,
+            "deepeval_geval_correctness": 0.0
+        }
+    },
+    {
+        "query_id": 9.0,
+        "query": "Jelaskan secara umum apa itu RAG (Retrieval-Augmented Generation) pada sistem AI. (Mengapa integrasi layanan digital penting bagi masyarakat?)",
+        "query_type": "Faktual",
+        "expected_output": "Mempermudah akses layanan, mengurangi duplikasi proses, dan meningkatkan efisiensi pelayanan.",
+        "source": "(pengetahuan umum, tanpa dokumen)",
+        "actual_output": "Berikut adalah penjelasan singkat mengenai RAG dan pentingnya integrasi layanan digital:\n\n### **Apa itu RAG (Retrieval-Augmented Generation)?**\n**RAG** adalah teknik dalam AI yang menggabungkan kemampuan model bahasa besar (LLM) dengan sumber data eksternal yang terpercaya. \n\nSecara sederhana, RAG bekerja dalam dua tahap:\n1. **Retrieval (Pengambilan):** Saat menerima pertanyaan, AI tidak langsung menjawab, tetapi mencari informasi relevan dari basis data atau dokumen spesifik (misalnya: dokumen regulasi SPBE).\n2. **Generation (Pembuatan):** AI menggunakan informasi yang ditemukan tersebut sebagai referensi untuk menyusun jawaban yang akurat, aktual, dan meminimalkan risiko \"halusinasi\" (jawaban palsu).\n\n**Intinya:** RAG membuat AI memiliki \"buku referensi\" sehingga jawabannya tidak hanya berdasarkan hafalan data pelatihan, tetapi berdasarkan data nyata yang disediakan.\n\n---\n\n### **Mengapa Integrasi Layanan Digital Penting bagi Masyarakat?**\nIntegrasi layanan digital (seperti yang diupayakan dalam SPBE) sangat penting karena:\n\n1. **Efisiensi Waktu & Tenaga:** Masyarakat tidak perlu menginput data yang sama berulang kali di berbagai aplikasi berbeda (*Single Sign-On*).\n2. **Kemudahan Akses (One-Stop Service):** Berbagai layanan publik dapat diakses melalui satu pintu/platform, sehingga proses birokrasi menjadi lebih ringkas.\n3. **Transparansi & Akurasi Data:** Integrasi data antar instansi mengurangi risiko tumpang tindih data dan mempercepat proses verifikasi administrasi.\n4. **Peningkatan Kualitas Layanan:** Pemerintah dapat memberikan layanan yang lebih personal dan tepat sasaran karena data terintegrasi secara *real-time*.",
+        "evaluations": {
+            "ragas_answer_relevancy": NaN,
+            "ragas_faithfulness": NaN,
+            "ragas_answer_correctness": NaN,
+            "deepeval_hallucination": 0.0,
+            "deepeval_geval_correctness": 0.0
+        }
+    }
+]

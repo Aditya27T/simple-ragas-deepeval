@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.json
+!scenario1_data.json
+!answers.json
+!evaluation_results.json
