@@ -28,6 +28,22 @@ Repository ini berisi sekumpulan skrip Python mandiri yang dirancang untuk melak
 
 ---
 
+## 🔧 Tutorial: Menggunakan DeepSeek / Minimax Langsung (Tanpa OpenRouter)
+
+Secara bawaan, **Tugas 2** menggunakan API OpenRouter. Jika Anda memiliki API Key langsung dari DeepSeek atau Minimax, Anda bisa menggunakannya tanpa perlu mengubah kode Python-nya.
+
+Buka file `.env` Anda, lalu cari bagian "TUGAS 2" dan hilangkan tanda pagar (`#`) pada model yang ingin Anda gunakan.
+
+**Contoh jika ingin memakai DeepSeek:**
+```ini
+TEST_BASE_URL=https://api.deepseek.com/v1
+TEST_API_KEY=sk-deepseek-xxx
+TEST_MODEL=deepseek-chat
+```
+*(Catatan: Biarkan bagian Tugas 3 / Juri tetap memakai OpenRouter)*
+
+---
+
 ## 🚀 Cara Menjalankan
 
 Proses dibagi menjadi 3 tahapan (tugas) yang **harus dijalankan secara berurutan**.
