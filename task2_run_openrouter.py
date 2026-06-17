@@ -11,7 +11,7 @@ load_dotenv(".env")
 
 def main():
     input_file = "scenario1_data.json"
-    output_file = "answers.json"
+    output_file = "answers1.json"
 
     # 1. Baca data sumber (Skenario 1)
     if not os.path.exists(input_file):
@@ -49,7 +49,7 @@ def main():
         api_key=os.getenv("OPENROUTER_API_KEY"),
     )
 
-    model_name = "meta-llama/llama-3.1-70b-instruct"
+    model_name = "google/gemma-4-31b-it:free"
     print(f"🚀 Mulai generate jawaban dengan model: {model_name}...")
 
     limit_per_run = 30  # Batasi eksekusi maksimal 30 soal per run
@@ -80,7 +80,7 @@ def main():
                     {"role": "user", "content": item["query"]},
                 ],
                 temperature=0.0,
-                max_tokens=1000
+                max_tokens=1000,
             )
             actual_output = response.choices[0].message.content
         except Exception as e:

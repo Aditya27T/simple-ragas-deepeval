@@ -1,0 +1,85 @@
+services:
+  # ── Task 1: Ekstrak dataset dari Excel ──────────────────────────────────────
+  task1:
+    build: .
+    image: ragas-deepeval:latest
+    container_name: ragas_task1
+    env_file:
+      - .env
+    volumes:
+      # Mount direktori saat ini agar file JSON output tersimpan di host
+      - .:/app
+    command: python task1_fetch_scenario.py
+    working_dir: /app
+
+  # ── Task 2: Generate jawaban via LLM (OpenRouter) ───────────────────────────
+  task2:
+    build: .
+    image: ragas-deepeval:latest
+    container_name: ragas_task2
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: python task2_run_openrouter.py
+    working_dir: /app
+
+  # ── Task 2 (DeepSeek): Generate jawaban via DeepSeek API langsung ───────────
+  task2-deepseek:
+    build: .
+    image: ragas-deepeval:latest
+    container_name: ragas_task2_deepseek
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: python task2_run_deepseek.py
+    working_dir: /app
+
+  # ── Task 2 (MiniMax M3): Generate jawaban via MiniMax API langsung ──────────
+  task2-minimax:
+    build: .
+    image: ragas-deepeval:latest
+    container_name: ragas_task2_minimax
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: python task2_run_minimax.py
+    working_dir: /app
+
+  # ── Task 2 (TokenRouter): Generate jawaban via TokenRouter API ──────────────
+  task2-tokenrouter:
+    build: .
+    image: ragas-deepeval:latest
+    container_name: ragas_task2_tokenrouter
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: python task2_run_tokenrouter.py
+    working_dir: /app
+
+  # ── Task 3: Evaluasi hasil (RAGAS & DeepEval) ────────────────────────────────
+  task3:
+    build: .
+    image: ragas-deepeval:latest
+    container_name: ragas_task3
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: python task3_evaluate.py
+    working_dir: /app
+
+  # ── Task 4: Evaluasi hasil (DeepEval saja) ──────────────────────────────────
+  task4:
+    build: .
+    image: ragas-deepeval:latest
+    container_name: ragas_task4
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: python task4_evaluate_deepeval_only.py
+    working_dir: /app
