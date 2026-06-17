@@ -1,0 +1,8 @@
+openpyxl
+openai
+deepeval
+ragas
+datasets
+python-dotenv
+langchain-openai
+pandas
