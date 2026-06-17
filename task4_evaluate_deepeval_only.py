@@ -3,7 +3,7 @@ import os
 import time
 
 # DeepEval
-from deepeval.metrics import GEval, HallucinationMetric
+from deepeval.metrics import GEval, HallucinationMetric, AnswerRelevancyMetric
 from deepeval.models.base_model import DeepEvalBaseLLM
 from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 from dotenv import load_dotenv
@@ -95,6 +95,9 @@ def main():
     hallucination_metric = HallucinationMetric(
         threshold=0.3, model=judge, include_reason=False
     )
+    answer_relevancy_metric = AnswerRelevancyMetric(
+        threshold=0.5, model=judge, include_reason=False
+    )
     geval_metric = GEval(
         name="Correctness",
         model=judge,
@@ -137,10 +140,19 @@ def main():
             print(f"      ⚠️ GEval error pada index {i}: {e}")
             geval_score = 0.0
 
+        # Ukur Answer Relevancy
+        try:
+            answer_relevancy_metric.measure(tc)
+            ar_score = answer_relevancy_metric.score
+        except Exception as e:
+            print(f"      ⚠️ Answer Relevancy error pada index {i}: {e}")
+            ar_score = 0.0
+
         # Simpan DeepEval saja
         item["evaluations"] = {
             "deepeval_hallucination": float(hal_score),
             "deepeval_geval_correctness": float(geval_score),
+            "deepeval_answer_relevancy": float(ar_score),
         }
 
         # Tambahkan ke daftar master (update jika sudah ada, atau append)
