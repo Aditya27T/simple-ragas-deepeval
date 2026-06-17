@@ -83,6 +83,7 @@ def main():
         print(f"⏳ Memproses Soal ID: {item['query_id']} ...")
         try:
             # Menggunakan stream sesuai dokumentasi / contoh
+            start_time = time.time()
             stream = client.chat.completions.create(
                 model=MODEL,
                 messages=[
@@ -108,6 +109,8 @@ def main():
                         content_parts.append(delta.content)
 
             actual_output = "".join(content_parts)
+            end_time = time.time()
+            response_time = round(end_time - start_time, 2)
 
         except Exception as e:
             print(f"❌ Error API saat memproses query ID {item['query_id']}: {e}")
@@ -118,6 +121,7 @@ def main():
 
         # Simpan jawaban ke item
         item["actual_output"] = actual_output
+        item["response_time_seconds"] = response_time
 
         # Update jika sudah ada, atau append baru
         updated = False

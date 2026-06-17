@@ -70,6 +70,7 @@ def main():
 
         print(f"⏳ Memproses Soal ID: {item['query_id']} ...")
         try:
+            start_time = time.time()
             response = client.chat.completions.create(
                 model=model_name,
                 messages=[
@@ -83,6 +84,8 @@ def main():
                 max_tokens=1000,
             )
             actual_output = response.choices[0].message.content
+            end_time = time.time()
+            response_time = round(end_time - start_time, 2)
         except Exception as e:
             print(f"❌ Error API saat memproses query ID {item['query_id']}: {e}")
             print(
@@ -92,6 +95,7 @@ def main():
 
         # Simpan hasil jawaban ke item
         item["actual_output"] = actual_output
+        item["response_time_seconds"] = response_time
 
         # Cari apakah item ini sebelumnya ada tapi gagal, lalu update. Jika tidak, tambahkan baru.
         updated_existing = False
