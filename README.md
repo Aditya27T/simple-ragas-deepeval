@@ -122,3 +122,11 @@ Skrip ini berfungsi sama dengan Tugas 3, tetapi *hanya* menjalankan evaluasi men
   ```
 - **Fitur Spesial:** Menggunakan `answers.json` dan menyimpan hasil ke file terpisah bernama `evaluation_results_deepeval_only.json` agar tidak tertukar dengan hasil Tugas 3.
 - **Cara Melanjutkan:** Jalankan kembali perintah secara berulang hingga selesai.
+
+### 📌 Tugas 5: Visualisasi Hasil Evaluasi
+Skrip ini akan membaca data evaluasi (secara default `evaluation_results_deepeval_only.json`) dan menghasilkan beberapa grafik visualisasi seperti *bar chart* rata-rata skor dan *histogram* distribusi correctness.
+- **Perintah:**
+  ```bash
+  python task5_visualize_results.py
+  ```
+- **Fungsi:** Menyimpan hasil gambar grafik (PNG) dan tabel ringkasan (CSV) secara rapi ke dalam folder `visualizations/`.

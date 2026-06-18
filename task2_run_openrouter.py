@@ -43,13 +43,12 @@ def main():
         f"🔄 Fitur Resume Aktif: Ditemukan {len(processed_ids)} soal yang sudah terjawab sebelumnya."
     )
 
-    # Inisialisasi client OpenRouter
+    # Inisialisasi client API (Dinamis: Bisa OpenRouter, DeepSeek, atau Minimax)
     client = OpenAI(
-        base_url="https://openrouter.ai/api/v1",
-        api_key=os.getenv("OPENROUTER_API_KEY"),
+        base_url=os.getenv("TEST_BASE_URL", "https://openrouter.ai/api/v1"),
+        api_key=os.getenv("TEST_API_KEY", os.getenv("OPENROUTER_API_KEY")),
     )
-
-    model_name = "google/gemma-4-31b-it:free"
+    model_name = os.getenv("TEST_MODEL", "meta-llama/llama-3.1-70b-instruct")
     print(f"🚀 Mulai generate jawaban dengan model: {model_name}...")
 
     limit_per_run = 30  # Batasi eksekusi maksimal 30 soal per run

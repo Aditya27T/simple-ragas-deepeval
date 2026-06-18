@@ -6,3 +6,5 @@ datasets
 python-dotenv
 langchain-openai
 pandas
+matplotlib
+seaborn
